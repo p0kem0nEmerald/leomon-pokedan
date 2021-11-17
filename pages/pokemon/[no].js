@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import Admin from "layouts/Admin.js";
-import Pokemons from "data/json/pokemons";
+import Pokemons from "data/json/pokemon";
 
 export default function Pokemon({ pokemon }) {
   return (

@@ -11,6 +11,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import ListSubheader from "@mui/material/ListSubheader";
 import PokemonIcon from "components/Pokemon/PokemonIcon";
+import PokemonLink from "components/Link/PokemonLink";
 import PropTypes from "prop-types";
 import SendIcon from "@mui/icons-material/Send";
 import StarBorder from "@mui/icons-material/StarBorder";
@@ -25,7 +26,6 @@ const PokemonList = ({ pokemons, title, defaultIsOpen, ...props }) => {
   return (
     <List
       className="w-full bg-white"
-      sx={{ maxWidth: 360 }}
       component="nav"
       aria-labelledby="nested-list-subheader"
     >
@@ -36,14 +36,21 @@ const PokemonList = ({ pokemons, title, defaultIsOpen, ...props }) => {
       <Collapse in={isOpen} timeout="auto" unmountOnExit>
         {pokemons.map((pokemon) => {
           return (
-            <List component="div" disablePadding>
-              <ListItemButton>
-                <PokemonIcon pokemon={pokemon} />
-                <ListItemText
-                  primary={`${pokemon.nickname} (${pokemon.name})`}
-                />
-              </ListItemButton>
-            </List>
+            <PokemonLink pokemon={pokemon}>
+              <List component="div" disablePadding>
+                <ListItemButton>
+                  <PokemonIcon
+                    pokemon={pokemon}
+                    imgProps={{ className: "w-8 mr-4 m-auto" }}
+                    disableLink={true}
+                  />
+
+                  <ListItemText
+                    primary={`${pokemon.nickname} (${pokemon.name})`}
+                  />
+                </ListItemButton>
+              </List>
+            </PokemonLink>
           );
         })}
       </Collapse>

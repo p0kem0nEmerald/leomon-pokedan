@@ -16,7 +16,10 @@ const CardVideoThumbnail = ({
     <VideoLink videoNo={videoNo}>
       <CardActionArea {...props}>
         {/* Thumbnail Images */}
-        <img src={`https://i.ytimg.com/vi/${id}/default.jpg`} {...imgProps} />
+        <img
+          src={`https://i.ytimg.com/vi/${id}/maxresdefault.jpg`}
+          {...imgProps}
+        />
         {/* Overlays for Thumbnail */}
         <div {...overlayProps}>
           <div className="absolute bottom-0 right-0 bg-black text-white m-1 p-1 flex flex-row items-center text-xs font-bold h-5 rounded-sm">
@@ -37,10 +40,7 @@ CardVideoThumbnail.propTypes = {
 };
 
 CardVideoThumbnail.defaultProps = {
-  imgProps: {
-    width: "100%",
-    height: "auto",
-  },
+  imgProps: {},
   overlayProps: {},
 };
 

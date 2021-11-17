@@ -1,27 +1,29 @@
+import Admin from "layouts/Admin.js";
+import CardFriendArea from "components/Cards/CardFriendArea";
+import CardProfile from "components/Cards/CardProfile.js";
+import CardSettings from "components/Cards/CardSettings.js";
+import FriendAreaData from "data/json/friend-area.json";
+import Grid from "@mui/material/Grid";
 import React from "react";
 
-// components
-
-import CardSettings from "components/Cards/CardSettings.js";
-import CardProfile from "components/Cards/CardProfile.js";
-
-// layout for page
-
-import Admin from "layouts/Admin.js";
-
-export default function Settings() {
+export default function FriendAreas() {
   return (
-    <>
-      <div className="flex flex-wrap">
-        <div className="w-full lg:w-8/12 px-4">
-          <CardSettings />
-        </div>
-        <div className="w-full lg:w-4/12 px-4">
-          <CardProfile />
-        </div>
+    <div className="flex flex-col relative">
+      <div className="flex flex-wrap justify-start mt-6 mx-2">
+        <Grid container>
+          {FriendAreaData.map((friendArea) => (
+            <Grid item xs={6} md={4} lg={3}>
+              <CardFriendArea
+                key={friendArea.base}
+                friendArea={friendArea}
+                className="mx-2 mb-10"
+              />
+            </Grid>
+          ))}
+        </Grid>
       </div>
-    </>
+    </div>
   );
 }
 
-Settings.layout = Admin;
+FriendAreas.layout = Admin;
