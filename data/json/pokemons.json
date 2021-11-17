@@ -1,0 +1,3729 @@
+[
+  {
+    "name": "フシギダネ",
+    "base": "001",
+    "nickname": "なかの",
+    "no": 1,
+    "getVideoNo": 92,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "フシギソウ",
+    "base": "002",
+    "nickname": "なかはら",
+    "no": 2,
+    "getVideoNo": 92,
+    "eveVideoNo": 93,
+    "kanji": null
+  },
+  {
+    "name": "フシギバナ",
+    "base": "003",
+    "nickname": "なかばやし",
+    "no": 3,
+    "getVideoNo": 92,
+    "eveVideoNo": 93,
+    "kanji": null
+  },
+  {
+    "name": "ヒトカゲ",
+    "base": "004",
+    "nickname": "あざまる",
+    "no": 4,
+    "getVideoNo": 92,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "リザード",
+    "base": "005",
+    "nickname": "りざまる",
+    "no": 5,
+    "getVideoNo": 92,
+    "eveVideoNo": 93,
+    "kanji": null
+  },
+  {
+    "name": "リザードン",
+    "base": "006",
+    "nickname": "かげまる",
+    "no": 6,
+    "getVideoNo": 92,
+    "eveVideoNo": 93,
+    "kanji": null
+  },
+  {
+    "name": "ゼニガメ",
+    "base": "007",
+    "nickname": "マルコメ",
+    "no": 7,
+    "getVideoNo": 32,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "カメール",
+    "base": "008",
+    "nickname": "コメーメ",
+    "no": 8,
+    "getVideoNo": 93,
+    "eveVideoNo": 93,
+    "kanji": null
+  },
+  {
+    "name": "カメックス",
+    "base": "009",
+    "nickname": "コメックス",
+    "no": 9,
+    "getVideoNo": 93,
+    "eveVideoNo": 93,
+    "kanji": null
+  },
+  {
+    "name": "キャタピー",
+    "base": "010",
+    "nickname": "ころろ",
+    "no": 10,
+    "getVideoNo": 79,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "トランセル",
+    "base": "011",
+    "nickname": "ぽいふる",
+    "no": 11,
+    "getVideoNo": 79,
+    "eveVideoNo": 79,
+    "kanji": null
+  },
+  {
+    "name": "バタフリー",
+    "base": "012",
+    "nickname": "はりぼう",
+    "no": 12,
+    "getVideoNo": 79,
+    "eveVideoNo": 79,
+    "kanji": null
+  },
+  {
+    "name": "ビードル",
+    "base": "013",
+    "nickname": "ハナちゃん",
+    "no": 13,
+    "getVideoNo": 26,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "コクーン",
+    "base": "014",
+    "nickname": "ツルちゃん",
+    "no": 14,
+    "getVideoNo": 52,
+    "eveVideoNo": 53,
+    "kanji": null
+  },
+  {
+    "name": "スピアー",
+    "base": "015",
+    "nickname": "トゲちゃん",
+    "no": 15,
+    "getVideoNo": 52,
+    "eveVideoNo": 53,
+    "kanji": null
+  },
+  {
+    "name": "ポッポ",
+    "base": "016",
+    "nickname": "トシ",
+    "no": 16,
+    "getVideoNo": 66,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ピジョン",
+    "base": "017",
+    "nickname": "ヨシキ",
+    "no": 17,
+    "getVideoNo": 53,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ピジョット",
+    "base": "018",
+    "nickname": "ヒデ",
+    "no": 18,
+    "getVideoNo": 53,
+    "eveVideoNo": 54,
+    "kanji": null
+  },
+  {
+    "name": "コラッタ",
+    "base": "019",
+    "nickname": "ケンタ",
+    "no": 19,
+    "getVideoNo": 4,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ラッタ",
+    "base": "020",
+    "nickname": "ダイチ",
+    "no": 20,
+    "getVideoNo": 4,
+    "eveVideoNo": 26,
+    "kanji": null
+  },
+  {
+    "name": "オニスズメ",
+    "base": "021",
+    "nickname": "ぴよひこ",
+    "no": 21,
+    "getVideoNo": 9,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "オニドリル",
+    "base": "022",
+    "nickname": "ぴーすけ",
+    "no": 22,
+    "getVideoNo": 9,
+    "eveVideoNo": 26,
+    "kanji": null
+  },
+  {
+    "name": "アーボ",
+    "base": "023",
+    "nickname": "ノリさん",
+    "no": 23,
+    "getVideoNo": 97,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アーボック",
+    "base": "024",
+    "nickname": "タカさん",
+    "no": 24,
+    "getVideoNo": 97,
+    "eveVideoNo": 98,
+    "kanji": null
+  },
+  {
+    "name": "ピカチュウ",
+    "base": "025",
+    "nickname": "ピカイチ",
+    "no": 25,
+    "getVideoNo": 1,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ライチュウ",
+    "base": "026",
+    "nickname": "ラチュイチ",
+    "no": 26,
+    "getVideoNo": 114,
+    "eveVideoNo": 115,
+    "kanji": null
+  },
+  {
+    "name": "サンド",
+    "base": "027",
+    "nickname": "ハム",
+    "no": 27,
+    "getVideoNo": 79,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "サンドパン",
+    "base": "028",
+    "nickname": "ツナ",
+    "no": 28,
+    "getVideoNo": 79,
+    "eveVideoNo": 80,
+    "kanji": null
+  },
+  {
+    "name": "ニドラン♀",
+    "base": "029",
+    "nickname": "おじょう",
+    "no": 29,
+    "getVideoNo": 5,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ニドリーナ",
+    "base": "030",
+    "nickname": "あねさん",
+    "no": 30,
+    "getVideoNo": 5,
+    "eveVideoNo": 26,
+    "kanji": null
+  },
+  {
+    "name": "ニドクイン",
+    "base": "031",
+    "nickname": "ママ",
+    "no": 31,
+    "getVideoNo": 114,
+    "eveVideoNo": 115,
+    "kanji": null
+  },
+  {
+    "name": "ニドラン♂",
+    "base": "032",
+    "nickname": "わか",
+    "no": 32,
+    "getVideoNo": 52,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ニドリーノ",
+    "base": "033",
+    "nickname": "ボス",
+    "no": 33,
+    "getVideoNo": 52,
+    "eveVideoNo": 53,
+    "kanji": null
+  },
+  {
+    "name": "ニドキング",
+    "base": "034",
+    "nickname": "ドン",
+    "no": 34,
+    "getVideoNo": 114,
+    "eveVideoNo": 115,
+    "kanji": null
+  },
+  {
+    "name": "ピッピ",
+    "base": "035",
+    "nickname": "せいこ",
+    "no": 35,
+    "getVideoNo": 49,
+    "eveVideoNo": 98,
+    "kanji": null
+  },
+  {
+    "name": "ピクシー",
+    "base": "036",
+    "nickname": "ももえ",
+    "no": 36,
+    "getVideoNo": 98,
+    "eveVideoNo": 98,
+    "kanji": null
+  },
+  {
+    "name": "ロコン",
+    "base": "037",
+    "nickname": "かぐや",
+    "no": 37,
+    "getVideoNo": 110,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "キュウコン",
+    "base": "038",
+    "nickname": "かぐら",
+    "no": 38,
+    "getVideoNo": 110,
+    "eveVideoNo": 111,
+    "kanji": null
+  },
+  {
+    "name": "プリン",
+    "base": "039",
+    "nickname": "マーぼう",
+    "no": 39,
+    "getVideoNo": 97,
+    "eveVideoNo": 98,
+    "kanji": null
+  },
+  {
+    "name": "プクリン",
+    "base": "040",
+    "nickname": "たあぼう",
+    "no": 40,
+    "getVideoNo": 38,
+    "eveVideoNo": 98,
+    "kanji": null
+  },
+  {
+    "name": "ズバット",
+    "base": "041",
+    "nickname": "あやや",
+    "no": 41,
+    "getVideoNo": 76,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ゴルバット",
+    "base": "042",
+    "nickname": "ミキティ",
+    "no": 42,
+    "getVideoNo": 76,
+    "eveVideoNo": 76,
+    "kanji": null
+  },
+  {
+    "name": "ナゾノクサ",
+    "base": "043",
+    "nickname": "ルキ",
+    "no": 43,
+    "getVideoNo": 16,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "クサイハナ",
+    "base": "044",
+    "nickname": "シャネル",
+    "no": 44,
+    "getVideoNo": 46,
+    "eveVideoNo": 47,
+    "kanji": null
+  },
+  {
+    "name": "ラフレシア",
+    "base": "045",
+    "nickname": "ドルチェ",
+    "no": 45,
+    "getVideoNo": 114,
+    "eveVideoNo": 116,
+    "kanji": null
+  },
+  {
+    "name": "パラス",
+    "base": "046",
+    "nickname": "リボン",
+    "no": 46,
+    "getVideoNo": 80,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "パラセクト",
+    "base": "047",
+    "nickname": "シュシュ",
+    "no": 47,
+    "getVideoNo": 80,
+    "eveVideoNo": 80,
+    "kanji": null
+  },
+  {
+    "name": "コンパン",
+    "base": "048",
+    "nickname": "いちご",
+    "no": 48,
+    "getVideoNo": 78,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "モルフォン",
+    "base": "049",
+    "nickname": "ばなな",
+    "no": 49,
+    "getVideoNo": 78,
+    "eveVideoNo": 78,
+    "kanji": null
+  },
+  {
+    "name": "ディグダ",
+    "base": "050",
+    "nickname": "ボーイ",
+    "no": 50,
+    "getVideoNo": 81,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ダグトリオ",
+    "base": "051",
+    "nickname": "ダディ",
+    "no": 51,
+    "getVideoNo": 81,
+    "eveVideoNo": 81,
+    "kanji": null
+  },
+  {
+    "name": "ニャース",
+    "base": "052",
+    "nickname": "ムーン",
+    "no": 52,
+    "getVideoNo": 61,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ペルシアン",
+    "base": "053",
+    "nickname": "ルナ",
+    "no": 53,
+    "getVideoNo": 97,
+    "eveVideoNo": 98,
+    "kanji": null
+  },
+  {
+    "name": "コダック",
+    "base": "054",
+    "nickname": "レオモン",
+    "no": 54,
+    "getVideoNo": 1,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ゴルダック",
+    "base": "055",
+    "nickname": "ゴルにい",
+    "no": 55,
+    "getVideoNo": 70,
+    "eveVideoNo": 74,
+    "kanji": null
+  },
+  {
+    "name": "マンキー",
+    "base": "056",
+    "nickname": "ルーキー",
+    "no": 56,
+    "getVideoNo": 78,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "オコリザル",
+    "base": "057",
+    "nickname": "チャンプ",
+    "no": 57,
+    "getVideoNo": 19,
+    "eveVideoNo": 79,
+    "kanji": null
+  },
+  {
+    "name": "ガーディ",
+    "base": "058",
+    "nickname": "たいよう",
+    "no": 58,
+    "getVideoNo": 52,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ウインディ",
+    "base": "059",
+    "nickname": "はやて",
+    "no": 59,
+    "getVideoNo": 53,
+    "eveVideoNo": 54,
+    "kanji": null
+  },
+  {
+    "name": "ニョロモ",
+    "base": "060",
+    "nickname": "はぎの",
+    "no": 60,
+    "getVideoNo": 75,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ニョロゾ",
+    "base": "061",
+    "nickname": "いりえ",
+    "no": 61,
+    "getVideoNo": 75,
+    "eveVideoNo": 75,
+    "kanji": null
+  },
+  {
+    "name": "ニョロボン",
+    "base": "062",
+    "nickname": "きたじま",
+    "no": 62,
+    "getVideoNo": 75,
+    "eveVideoNo": 75,
+    "kanji": null
+  },
+  {
+    "name": "ケーシィ",
+    "base": "063",
+    "nickname": "フラッシュ",
+    "no": 63,
+    "getVideoNo": 104,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ユンゲラー",
+    "base": "064",
+    "nickname": "スラッシュ",
+    "no": 64,
+    "getVideoNo": 114,
+    "eveVideoNo": 114,
+    "kanji": null
+  },
+  {
+    "name": "フーディン",
+    "base": "065",
+    "nickname": "クラッシュ",
+    "no": 65,
+    "getVideoNo": 104,
+    "eveVideoNo": 104,
+    "kanji": null
+  },
+  {
+    "name": "ワンリキー",
+    "base": "066",
+    "nickname": "わんりきお",
+    "no": 66,
+    "getVideoNo": 99,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ゴーリキー",
+    "base": "067",
+    "nickname": "ごうりきお",
+    "no": 67,
+    "getVideoNo": 99,
+    "eveVideoNo": 99,
+    "kanji": null
+  },
+  {
+    "name": "カイリキー",
+    "base": "068",
+    "nickname": "かいりきお",
+    "no": 68,
+    "getVideoNo": 99,
+    "eveVideoNo": 99,
+    "kanji": null
+  },
+  {
+    "name": "マダツボミ",
+    "base": "069",
+    "nickname": "キューピー",
+    "no": 69,
+    "getVideoNo": 112,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ウツドン",
+    "base": "070",
+    "nickname": "カゴメ",
+    "no": 70,
+    "getVideoNo": 112,
+    "eveVideoNo": 113,
+    "kanji": null
+  },
+  {
+    "name": "ウツボット",
+    "base": "071",
+    "nickname": "ブルドック",
+    "no": 71,
+    "getVideoNo": 112,
+    "eveVideoNo": 113,
+    "kanji": null
+  },
+  {
+    "name": "メノクラゲ",
+    "base": "072",
+    "nickname": "ルビー",
+    "no": 72,
+    "getVideoNo": 55,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ドククラゲ",
+    "base": "073",
+    "nickname": "ガーネット",
+    "no": 73,
+    "getVideoNo": 56,
+    "eveVideoNo": 56,
+    "kanji": null
+  },
+  {
+    "name": "イシツブテ",
+    "base": "074",
+    "nickname": "ギベオン",
+    "no": 74,
+    "getVideoNo": 9,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ゴローン",
+    "base": "075",
+    "nickname": "サターン",
+    "no": 75,
+    "getVideoNo": 85,
+    "eveVideoNo": 86,
+    "kanji": null
+  },
+  {
+    "name": "ゴローニャ",
+    "base": "076",
+    "nickname": "テラ",
+    "no": 76,
+    "getVideoNo": 85,
+    "eveVideoNo": 86,
+    "kanji": null
+  },
+  {
+    "name": "ポニータ",
+    "base": "077",
+    "nickname": "",
+    "no": 77,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ギャロップ",
+    "base": "078",
+    "nickname": "",
+    "no": 78,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ヤドン",
+    "base": "079",
+    "nickname": "えんどう",
+    "no": 79,
+    "getVideoNo": 90,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ヤドラン",
+    "base": "080",
+    "nickname": "やまざき",
+    "no": 80,
+    "getVideoNo": 91,
+    "eveVideoNo": 91,
+    "kanji": null
+  },
+  {
+    "name": "コイル",
+    "base": "081",
+    "nickname": "ビビ",
+    "no": 81,
+    "getVideoNo": 4,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "レアコイル",
+    "base": "082",
+    "nickname": "ビビビビビ",
+    "no": 82,
+    "getVideoNo": 114,
+    "eveVideoNo": 115,
+    "kanji": null
+  },
+  {
+    "name": "カモネギ",
+    "base": "083",
+    "nickname": "みやもと",
+    "no": 83,
+    "getVideoNo": 26,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ドードー",
+    "base": "084",
+    "nickname": "もえちゃん",
+    "no": 84,
+    "getVideoNo": 67,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ドードリオ",
+    "base": "085",
+    "nickname": "えびちゃん",
+    "no": 85,
+    "getVideoNo": 117,
+    "eveVideoNo": 118,
+    "kanji": null
+  },
+  {
+    "name": "パウワウ",
+    "base": "086",
+    "nickname": "まゆぞう",
+    "no": 86,
+    "getVideoNo": 89,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ジュゴン",
+    "base": "087",
+    "nickname": "ユキ",
+    "no": 87,
+    "getVideoNo": 90,
+    "eveVideoNo": 90,
+    "kanji": null
+  },
+  {
+    "name": "ベトベター",
+    "base": "088",
+    "nickname": "あやめ",
+    "no": 88,
+    "getVideoNo": 79,
+    "eveVideoNo": null,
+    "info": "85再",
+    "kanji": null
+  },
+  {
+    "name": "ベトベトン",
+    "base": "089",
+    "nickname": "すみれ",
+    "no": 89,
+    "getVideoNo": 84,
+    "eveVideoNo": 85,
+    "kanji": null
+  },
+  {
+    "name": "シェルダー",
+    "base": "090",
+    "nickname": "たなか",
+    "no": 90,
+    "getVideoNo": 91,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "パルシェン",
+    "base": "091",
+    "nickname": "ひとし",
+    "no": 91,
+    "getVideoNo": 90,
+    "eveVideoNo": 91,
+    "kanji": null
+  },
+  {
+    "name": "ゴース",
+    "base": "092",
+    "nickname": "なめお",
+    "no": 92,
+    "getVideoNo": 30,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ゴースト",
+    "base": "093",
+    "nickname": "なめぞう",
+    "no": 93,
+    "getVideoNo": 37,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ゲンガー",
+    "base": "094",
+    "nickname": "なめギガス",
+    "no": 94,
+    "getVideoNo": 38,
+    "eveVideoNo": 38,
+    "kanji": null
+  },
+  {
+    "name": "イワーク",
+    "base": "095",
+    "nickname": "しのはら",
+    "no": 95,
+    "getVideoNo": 80,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "スリープ",
+    "base": "096",
+    "nickname": "エクレア",
+    "no": 96,
+    "getVideoNo": 30,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "スリーパー",
+    "base": "097",
+    "nickname": "モンブラン",
+    "no": 97,
+    "getVideoNo": 35,
+    "eveVideoNo": 35,
+    "kanji": null
+  },
+  {
+    "name": "クラブ",
+    "base": "098",
+    "nickname": "ズワイ",
+    "no": 98,
+    "getVideoNo": 56,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "キングラー",
+    "base": "099",
+    "nickname": "タラバ",
+    "no": 99,
+    "getVideoNo": 56,
+    "eveVideoNo": 56,
+    "kanji": null
+  },
+  {
+    "name": "ビリリダマ",
+    "base": "100",
+    "nickname": "ギロリダマ",
+    "no": 100,
+    "getVideoNo": 5,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "マルマイン",
+    "base": "101",
+    "nickname": "ニヤリダマ",
+    "no": 101,
+    "getVideoNo": 112,
+    "eveVideoNo": 113,
+    "kanji": null
+  },
+  {
+    "name": "タマタマ",
+    "base": "102",
+    "nickname": "たまお",
+    "no": 102,
+    "getVideoNo": 67,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ナッシー",
+    "base": "103",
+    "nickname": "たまえ",
+    "no": 103,
+    "getVideoNo": 68,
+    "eveVideoNo": 68,
+    "kanji": null
+  },
+  {
+    "name": "カラカラ",
+    "base": "104",
+    "nickname": "ゆい",
+    "no": 104,
+    "getVideoNo": 119,
+    "eveVideoNo": null,
+    "kanji": "結"
+  },
+  {
+    "name": "ガラガラ",
+    "base": "105",
+    "nickname": "さち",
+    "no": 105,
+    "getVideoNo": 119,
+    "eveVideoNo": 119,
+    "kanji": null
+  },
+  {
+    "name": "サワムラー",
+    "base": "106",
+    "nickname": "りき",
+    "no": 106,
+    "getVideoNo": 9,
+    "eveVideoNo": 31,
+    "kanji": null
+  },
+  {
+    "name": "エビワラー",
+    "base": "107",
+    "nickname": "くにお",
+    "no": 107,
+    "getVideoNo": 9,
+    "eveVideoNo": 31,
+    "kanji": null
+  },
+  {
+    "name": "ベロリンガ",
+    "base": "108",
+    "nickname": "ベロニカ",
+    "no": 108,
+    "getVideoNo": 119,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ドガース",
+    "base": "109",
+    "nickname": "りん",
+    "no": 109,
+    "getVideoNo": 85,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "マタドガス",
+    "base": "110",
+    "nickname": "ふじの",
+    "no": 110,
+    "getVideoNo": 84,
+    "eveVideoNo": 85,
+    "kanji": null
+  },
+  {
+    "name": "サイホーン",
+    "base": "111",
+    "nickname": "ガリレオ",
+    "no": 111,
+    "getVideoNo": 48,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "サイドン",
+    "base": "112",
+    "nickname": "エジソン",
+    "no": 112,
+    "getVideoNo": 114,
+    "eveVideoNo": 115,
+    "kanji": null
+  },
+  {
+    "name": "ラッキー",
+    "base": "113",
+    "nickname": "",
+    "no": 113,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "モンジャラ",
+    "base": "114",
+    "nickname": "もずく",
+    "no": 114,
+    "getVideoNo": 77,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ガルーラ",
+    "base": "115",
+    "nickname": "ガルおば",
+    "no": 115,
+    "getVideoNo": 97,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "タッツー",
+    "base": "116",
+    "nickname": "バッキー",
+    "no": 116,
+    "getVideoNo": 107,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "シードラ",
+    "base": "117",
+    "nickname": "りゅうじ",
+    "no": 117,
+    "getVideoNo": 107,
+    "eveVideoNo": 109,
+    "kanji": null
+  },
+  {
+    "name": "トサキント",
+    "base": "118",
+    "nickname": "モンロー",
+    "no": 118,
+    "getVideoNo": 105,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アズマオウ",
+    "base": "119",
+    "nickname": "オードリー",
+    "no": 119,
+    "getVideoNo": 105,
+    "eveVideoNo": 106,
+    "kanji": null
+  },
+  {
+    "name": "ヒトデマン",
+    "base": "120",
+    "nickname": "ルベライト",
+    "no": 120,
+    "getVideoNo": 56,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "スターミー",
+    "base": "121",
+    "nickname": "オパール",
+    "no": 121,
+    "getVideoNo": 56,
+    "eveVideoNo": 56,
+    "kanji": null
+  },
+  {
+    "name": "バリヤード",
+    "base": "122",
+    "nickname": "バリちゃん",
+    "no": 122,
+    "getVideoNo": 110,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ストライク",
+    "base": "123",
+    "nickname": "マサムネ",
+    "no": 123,
+    "getVideoNo": 17,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ルージュラ",
+    "base": "124",
+    "nickname": "",
+    "no": 124,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "エレブー",
+    "base": "125",
+    "nickname": "イナバ",
+    "no": 125,
+    "getVideoNo": 5,
+    "eveVideoNo": 81,
+    "kanji": null
+  },
+  {
+    "name": "ブーバー",
+    "base": "126",
+    "nickname": "ゴリ",
+    "no": 126,
+    "getVideoNo": 110,
+    "eveVideoNo": 111,
+    "kanji": null
+  },
+  {
+    "name": "カイロス",
+    "base": "127",
+    "nickname": "モカ",
+    "no": 127,
+    "getVideoNo": 10,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ケンタロス",
+    "base": "128",
+    "nickname": "てりやき",
+    "no": 128,
+    "getVideoNo": 32,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "コイキング",
+    "base": "129",
+    "nickname": "！？！？",
+    "no": 129,
+    "getVideoNo": "",
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ギャラドス",
+    "base": "130",
+    "nickname": "",
+    "no": 130,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ラプラス",
+    "base": "131",
+    "nickname": "！！！！",
+    "no": 131,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "メタモン",
+    "base": "132",
+    "nickname": "コロすけ",
+    "no": 132,
+    "getVideoNo": 62,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "イーブイ",
+    "base": "133",
+    "nickname": "みやけ",
+    "no": 133,
+    "getVideoNo": 94,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "シャワーズ",
+    "base": "134",
+    "nickname": "さかもと",
+    "no": 134,
+    "getVideoNo": 95,
+    "eveVideoNo": 96,
+    "kanji": null
+  },
+  {
+    "name": "サンダース",
+    "base": "135",
+    "nickname": "おかだ",
+    "no": 135,
+    "getVideoNo": 95,
+    "eveVideoNo": 96,
+    "kanji": null
+  },
+  {
+    "name": "ブースター",
+    "base": "136",
+    "nickname": "もりた",
+    "no": 136,
+    "getVideoNo": 95,
+    "eveVideoNo": 96,
+    "kanji": null
+  },
+  {
+    "name": "ポリゴン",
+    "base": "137",
+    "nickname": "ロクヨン",
+    "no": 137,
+    "getVideoNo": 110,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "オムナイト",
+    "base": "138",
+    "nickname": "オムっち",
+    "no": 138,
+    "getVideoNo": 107,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "オムスター",
+    "base": "139",
+    "nickname": "オムにゃん",
+    "no": 139,
+    "getVideoNo": 108,
+    "eveVideoNo": 109,
+    "kanji": null
+  },
+  {
+    "name": "カブト",
+    "base": "140",
+    "nickname": "あんこ",
+    "no": 140,
+    "getVideoNo": 107,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "カブトプス",
+    "base": "141",
+    "nickname": "さぶれ",
+    "no": 141,
+    "getVideoNo": 107,
+    "eveVideoNo": 109,
+    "kanji": null
+  },
+  {
+    "name": "プテラ",
+    "base": "142",
+    "nickname": "かんべえ",
+    "no": 142,
+    "getVideoNo": 44,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "カビゴン",
+    "base": "143",
+    "nickname": "まさお",
+    "no": 143,
+    "getVideoNo": 66,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "フリーザー",
+    "base": "144",
+    "nickname": "ミツイ",
+    "no": 144,
+    "getVideoNo": 63,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "サンダー",
+    "base": "145",
+    "nickname": "ルカワ",
+    "no": 145,
+    "getVideoNo": 54,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ファイヤー",
+    "base": "146",
+    "nickname": "サクラギ",
+    "no": 146,
+    "getVideoNo": 62,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ミニリュウ",
+    "base": "147",
+    "nickname": "リュウ",
+    "no": 147,
+    "getVideoNo": 82,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ハクリュー",
+    "base": "148",
+    "nickname": "ハク",
+    "no": 148,
+    "getVideoNo": 82,
+    "eveVideoNo": 83,
+    "kanji": null
+  },
+  {
+    "name": "カイリュー",
+    "base": "149",
+    "nickname": "カイ",
+    "no": 149,
+    "getVideoNo": 82,
+    "eveVideoNo": 83,
+    "kanji": null
+  },
+  {
+    "name": "ミュウツー",
+    "base": "150",
+    "nickname": "ＥＶＯ",
+    "no": 150,
+    "getVideoNo": 61,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ミュウ",
+    "base": "151",
+    "nickname": "",
+    "no": 151,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "チコリータ",
+    "base": "152",
+    "nickname": "ちぃこ",
+    "no": 152,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ベイリーフ",
+    "base": "153",
+    "nickname": "",
+    "no": 153,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "メガニウム",
+    "base": "154",
+    "nickname": "",
+    "no": 154,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ヒノアラシ",
+    "base": "155",
+    "nickname": "",
+    "no": 155,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "マグマラシ",
+    "base": "156",
+    "nickname": "",
+    "no": 156,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "バクフーン",
+    "base": "157",
+    "nickname": "",
+    "no": 157,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ワニノコ",
+    "base": "158",
+    "nickname": "フロリダ",
+    "no": 158,
+    "getVideoNo": 120,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アリゲイツ",
+    "base": "159",
+    "nickname": "テキサス",
+    "no": 159,
+    "getVideoNo": 120,
+    "eveVideoNo": 121,
+    "kanji": null
+  },
+  {
+    "name": "オーダイル",
+    "base": "160",
+    "nickname": "カロライナ",
+    "no": 160,
+    "getVideoNo": 120,
+    "eveVideoNo": 121,
+    "kanji": null
+  },
+  {
+    "name": "オタチ",
+    "base": "161",
+    "nickname": "ぽん",
+    "no": 161,
+    "getVideoNo": 16,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "オオタチ",
+    "base": "162",
+    "nickname": "ぽこ",
+    "no": 162,
+    "getVideoNo": 117,
+    "eveVideoNo": 118,
+    "kanji": null
+  },
+  {
+    "name": "ホーホー",
+    "base": "163",
+    "nickname": "ひらい",
+    "no": 163,
+    "getVideoNo": 17,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ヨルノズク",
+    "base": "164",
+    "nickname": "ヘンリー",
+    "no": 164,
+    "getVideoNo": 118,
+    "eveVideoNo": 118,
+    "kanji": null
+  },
+  {
+    "name": "レディバ",
+    "base": "165",
+    "nickname": "ロクゴウ",
+    "no": 165,
+    "getVideoNo": 16,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "レディアン",
+    "base": "166",
+    "nickname": "ナナゴウ",
+    "no": 166,
+    "getVideoNo": 117,
+    "eveVideoNo": 118,
+    "kanji": null
+  },
+  {
+    "name": "イトマル",
+    "base": "167",
+    "nickname": "サトウ",
+    "no": 167,
+    "getVideoNo": 43,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アリアドス",
+    "base": "168",
+    "nickname": "キサラギ",
+    "no": 168,
+    "getVideoNo": 43,
+    "eveVideoNo": 43,
+    "kanji": null
+  },
+  {
+    "name": "クロバット",
+    "base": "169",
+    "nickname": "つんく♂",
+    "no": 169,
+    "getVideoNo": 76,
+    "eveVideoNo": 76,
+    "kanji": null
+  },
+  {
+    "name": "チョンチー",
+    "base": "170",
+    "nickname": "ウィル",
+    "no": 170,
+    "getVideoNo": 108,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ランターン",
+    "base": "171",
+    "nickname": "ジャック",
+    "no": 171,
+    "getVideoNo": 108,
+    "eveVideoNo": 109,
+    "kanji": null
+  },
+  {
+    "name": "ピチュー",
+    "base": "172",
+    "nickname": "ピチュイチ",
+    "no": 172,
+    "getVideoNo": 70,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ピィ",
+    "base": "173",
+    "nickname": "あきな",
+    "no": 173,
+    "getVideoNo": 98,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ププリン",
+    "base": "174",
+    "nickname": "ヤンぼう",
+    "no": 174,
+    "getVideoNo": 97,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "トゲピー",
+    "base": "175",
+    "nickname": "プリンス",
+    "no": 175,
+    "getVideoNo": 49,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "トゲチック",
+    "base": "176",
+    "nickname": "キング",
+    "no": 176,
+    "getVideoNo": 98,
+    "eveVideoNo": 99,
+    "kanji": null
+  },
+  {
+    "name": "ネイティ",
+    "base": "177",
+    "nickname": "よもぎ",
+    "no": 177,
+    "getVideoNo": 48,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ネイティオ",
+    "base": "178",
+    "nickname": "ずんだ",
+    "no": 178,
+    "getVideoNo": 110,
+    "eveVideoNo": 111,
+    "kanji": null
+  },
+  {
+    "name": "メリープ",
+    "base": "179",
+    "nickname": "",
+    "no": 179,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "モココ",
+    "base": "180",
+    "nickname": "",
+    "no": 180,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "デンリュウ",
+    "base": "181",
+    "nickname": "",
+    "no": 181,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "キレイハナ",
+    "base": "182",
+    "nickname": "ガッバーナ",
+    "no": 182,
+    "getVideoNo": 114,
+    "eveVideoNo": 116,
+    "kanji": null
+  },
+  {
+    "name": "マリル",
+    "base": "183",
+    "nickname": "まりりん",
+    "no": 183,
+    "getVideoNo": 62,
+    "eveVideoNo": 63,
+    "kanji": null
+  },
+  {
+    "name": "マリルリ",
+    "base": "184",
+    "nickname": "マリアンヌ",
+    "no": 184,
+    "getVideoNo": 62,
+    "eveVideoNo": 63,
+    "kanji": null
+  },
+  {
+    "name": "ウソッキー",
+    "base": "185",
+    "nickname": "タイソン",
+    "no": 185,
+    "getVideoNo": 16,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ニョロトノ",
+    "base": "186",
+    "nickname": "イアン",
+    "no": 186,
+    "getVideoNo": 75,
+    "eveVideoNo": 75,
+    "kanji": null
+  },
+  {
+    "name": "ハネッコ",
+    "base": "187",
+    "nickname": "はる",
+    "no": 187,
+    "getVideoNo": 117,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ポポッコ",
+    "base": "188",
+    "nickname": "はな",
+    "no": 188,
+    "getVideoNo": 117,
+    "eveVideoNo": 118,
+    "kanji": null
+  },
+  {
+    "name": "ワタッコ",
+    "base": "189",
+    "nickname": "そら",
+    "no": 189,
+    "getVideoNo": 117,
+    "eveVideoNo": 118,
+    "kanji": null
+  },
+  {
+    "name": "エイパム",
+    "base": "190",
+    "nickname": "しんご",
+    "no": 190,
+    "getVideoNo": 388,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ヒマナッツ",
+    "base": "191",
+    "nickname": "なっちゅん",
+    "no": 191,
+    "getVideoNo": 112,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "キマワリ",
+    "base": "192",
+    "nickname": "しゅまいる",
+    "no": 192,
+    "getVideoNo": 112,
+    "eveVideoNo": 113,
+    "kanji": null
+  },
+  {
+    "name": "ヤンヤンマ",
+    "base": "193",
+    "nickname": "ポルコ",
+    "no": 193,
+    "getVideoNo": 26,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ウパー",
+    "base": "194",
+    "nickname": "サラマンダ",
+    "no": 194,
+    "getVideoNo": 17,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ヌオー",
+    "base": "195",
+    "nickname": "バハムート",
+    "no": 195,
+    "getVideoNo": 93,
+    "eveVideoNo": 93,
+    "kanji": null
+  },
+  {
+    "name": "エーフィ",
+    "base": "196",
+    "nickname": "ながの",
+    "no": 196,
+    "getVideoNo": 95,
+    "eveVideoNo": 96,
+    "kanji": null
+  },
+  {
+    "name": "ブラッキー",
+    "base": "197",
+    "nickname": "いのはら",
+    "no": 197,
+    "getVideoNo": 95,
+    "eveVideoNo": 96,
+    "kanji": null
+  },
+  {
+    "name": "ヤミカラス",
+    "base": "198",
+    "nickname": "ナイト",
+    "no": 198,
+    "getVideoNo": 67,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ヤドキング",
+    "base": "199",
+    "nickname": "まさとし",
+    "no": 199,
+    "getVideoNo": 56,
+    "eveVideoNo": 91,
+    "kanji": null
+  },
+  {
+    "name": "ムウマ",
+    "base": "200",
+    "nickname": "キャサリン",
+    "no": 200,
+    "getVideoNo": 38,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン",
+    "base": "201",
+    "nickname": "",
+    "no": 201,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(A)",
+    "base": "201A",
+    "nickname": "ＡＫＩＲＡ",
+    "no": 201,
+    "getVideoNo": 41,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(B)",
+    "base": "201B",
+    "nickname": "ＢＥＮ",
+    "no": 201,
+    "getVideoNo": 42,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(C)",
+    "base": "201C",
+    "nickname": "ＣＨＩＫＡ",
+    "no": 201,
+    "getVideoNo": 41,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(D)",
+    "base": "201D",
+    "nickname": "ＤＡＩＫＩ",
+    "no": 201,
+    "getVideoNo": 42,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(E)",
+    "base": "201E",
+    "nickname": "ＥＭＩ",
+    "no": 201,
+    "getVideoNo": 41,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(F)",
+    "base": "201F",
+    "nickname": "ＦＵＭＩ",
+    "no": 201,
+    "getVideoNo": 42,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(G)",
+    "base": "201G",
+    "nickname": "ＧＯＨ",
+    "no": 201,
+    "getVideoNo": 42,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(H)",
+    "base": "201H",
+    "nickname": "ＨＩＲＯ",
+    "no": 201,
+    "getVideoNo": 41,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(I)",
+    "base": "201I",
+    "nickname": "ＩＳＳＡ",
+    "no": 201,
+    "getVideoNo": 41,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(J)",
+    "base": "201J",
+    "nickname": "ＪＯＥ",
+    "no": 201,
+    "getVideoNo": 42,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(K)",
+    "base": "201K",
+    "nickname": "ＫＯ－ＴＡ",
+    "no": 201,
+    "getVideoNo": 42,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(L)",
+    "base": "201L",
+    "nickname": "ＬＩＳＡ",
+    "no": 201,
+    "getVideoNo": 42,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(M)",
+    "base": "201M",
+    "nickname": "ＭＯＭＯ",
+    "no": 201,
+    "getVideoNo": 41,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(N)",
+    "base": "201N",
+    "nickname": "ＮＯＡ",
+    "no": 201,
+    "getVideoNo": 42,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(O)",
+    "base": "201O",
+    "nickname": "ＯＳＡＭＵ",
+    "no": 201,
+    "getVideoNo": 42,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(P)",
+    "base": "201P",
+    "nickname": "ＰＥＡＣＨ",
+    "no": 201,
+    "getVideoNo": 42,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(Q)",
+    "base": "201Q",
+    "nickname": "ＱＣＨＡＮ",
+    "no": 201,
+    "getVideoNo": 42,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(R)",
+    "base": "201R",
+    "nickname": "ＲＹＯ",
+    "no": 201,
+    "getVideoNo": 41,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(S)",
+    "base": "201S",
+    "nickname": "ＳＨＯＧＯ",
+    "no": 201,
+    "getVideoNo": 41,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(T)",
+    "base": "201T",
+    "nickname": "ＴＯＭ",
+    "no": 201,
+    "getVideoNo": 41,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(U)",
+    "base": "201U",
+    "nickname": "ＵＴＡ",
+    "no": 201,
+    "getVideoNo": 42,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(V)",
+    "base": "201V",
+    "nickname": "ＶＥＮＵＳ",
+    "no": 201,
+    "getVideoNo": 42,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(W)",
+    "base": "201W",
+    "nickname": "ＷＡＫＡ",
+    "no": 201,
+    "getVideoNo": 42,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(X)",
+    "base": "201X",
+    "nickname": "Ｘ",
+    "no": 201,
+    "getVideoNo": 42,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(Y)",
+    "base": "201Y",
+    "nickname": "ＹＵＮＡ",
+    "no": 201,
+    "getVideoNo": 41,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(Z)",
+    "base": "201Z",
+    "nickname": "ＺＥＲＯ",
+    "no": 201,
+    "getVideoNo": 42,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(!)",
+    "base": "201ex",
+    "nickname": "！ＭＡＮ",
+    "no": 201,
+    "getVideoNo": 41,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アンノーン(?)",
+    "base": "201qu",
+    "nickname": "？ＳＡＮ",
+    "no": 201,
+    "getVideoNo": 41,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ソーナンス",
+    "base": "202",
+    "nickname": "ＳＡＭ",
+    "no": 202,
+    "getVideoNo": 122,
+    "eveVideoNo": 123,
+    "kanji": null
+  },
+  {
+    "name": "キリンリキ",
+    "base": "203",
+    "nickname": "エガちゃん",
+    "no": 203,
+    "getVideoNo": 123,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "クヌギダマ",
+    "base": "204",
+    "nickname": "おまつ",
+    "no": 204,
+    "getVideoNo": 89,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "フォレトス",
+    "base": "205",
+    "nickname": "くるみ",
+    "no": 205,
+    "getVideoNo": 89,
+    "eveVideoNo": 90,
+    "kanji": null
+  },
+  {
+    "name": "ノコッチ",
+    "base": "206",
+    "nickname": "ノコじい",
+    "no": 206,
+    "getVideoNo": 66,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "グライガー",
+    "base": "207",
+    "nickname": "まさよし",
+    "no": 207,
+    "getVideoNo": 52,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ハガネール",
+    "base": "208",
+    "nickname": "いのうえ",
+    "no": 208,
+    "getVideoNo": 80,
+    "eveVideoNo": 80,
+    "kanji": null
+  },
+  {
+    "name": "ブルー",
+    "base": "209",
+    "nickname": "ティンク",
+    "no": 209,
+    "getVideoNo": 97,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "グランブル",
+    "base": "210",
+    "nickname": "ベル",
+    "no": 210,
+    "getVideoNo": 97,
+    "eveVideoNo": 98,
+    "kanji": null
+  },
+  {
+    "name": "ハリーセン",
+    "base": "211",
+    "nickname": "ふぐたろう",
+    "no": 211,
+    "getVideoNo": 55,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ハッサム",
+    "base": "212",
+    "nickname": "ムラマサ",
+    "no": 212,
+    "getVideoNo": 17,
+    "eveVideoNo": 48,
+    "kanji": null
+  },
+  {
+    "name": "ツボツボ",
+    "base": "213",
+    "nickname": "ミモザ",
+    "no": 213,
+    "getVideoNo": 36,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ヘラクロス",
+    "base": "214",
+    "nickname": "ダンナ",
+    "no": 214,
+    "getVideoNo": 67,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ニューラ",
+    "base": "215",
+    "nickname": "ナナ",
+    "no": 215,
+    "getVideoNo": 110,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ヒメグマ",
+    "base": "216",
+    "nickname": "ひめ",
+    "no": 216,
+    "getVideoNo": 26,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "リングマ",
+    "base": "217",
+    "nickname": "との",
+    "no": 217,
+    "getVideoNo": 114,
+    "eveVideoNo": 115,
+    "kanji": null
+  },
+  {
+    "name": "マグマッグ",
+    "base": "218",
+    "nickname": "まぐりん",
+    "no": 218,
+    "getVideoNo": 62,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "マグカルゴ",
+    "base": "219",
+    "nickname": "かるごん",
+    "no": 219,
+    "getVideoNo": 121,
+    "eveVideoNo": 121,
+    "kanji": null
+  },
+  {
+    "name": "ウリムー",
+    "base": "220",
+    "nickname": "ボブ",
+    "no": 220,
+    "getVideoNo": 25,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "イノムー",
+    "base": "221",
+    "nickname": "マーリー",
+    "no": 221,
+    "getVideoNo": 117,
+    "eveVideoNo": 118,
+    "kanji": null
+  },
+  {
+    "name": "サニーゴ",
+    "base": "222",
+    "nickname": "ヒガさん",
+    "no": 222,
+    "getVideoNo": 56,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "テッポウオ",
+    "base": "223",
+    "nickname": "レッド",
+    "no": 223,
+    "getVideoNo": 120,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "オクタン",
+    "base": "224",
+    "nickname": "ゴルゴ",
+    "no": 224,
+    "getVideoNo": 120,
+    "eveVideoNo": 121,
+    "kanji": null
+  },
+  {
+    "name": "デリバード",
+    "base": "225",
+    "nickname": "まりや",
+    "no": 225,
+    "getVideoNo": 33,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "マンタイン",
+    "base": "226",
+    "nickname": "ミミ",
+    "no": 226,
+    "getVideoNo": 56,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "エアームド",
+    "base": "227",
+    "nickname": "サスケ",
+    "no": 227,
+    "getVideoNo": 57,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "デルビル",
+    "base": "228",
+    "nickname": "クロ",
+    "no": 228,
+    "getVideoNo": 26,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ヘルガー",
+    "base": "229",
+    "nickname": "ヴァルツ",
+    "no": 229,
+    "getVideoNo": 36,
+    "eveVideoNo": 37,
+    "kanji": null
+  },
+  {
+    "name": "キングドラ",
+    "base": "230",
+    "nickname": "きりゅう",
+    "no": 230,
+    "getVideoNo": 107,
+    "eveVideoNo": 109,
+    "kanji": null
+  },
+  {
+    "name": "ゴマゾウ",
+    "base": "231",
+    "nickname": "ぱおぞう",
+    "no": 231,
+    "getVideoNo": 66,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ドンファン",
+    "base": "232",
+    "nickname": "ふぁおぞう",
+    "no": 232,
+    "getVideoNo": 114,
+    "eveVideoNo": 115,
+    "kanji": null
+  },
+  {
+    "name": "ポリゴン２",
+    "base": "233",
+    "nickname": "スイッチ",
+    "no": 233,
+    "getVideoNo": 110,
+    "eveVideoNo": 111,
+    "kanji": null
+  },
+  {
+    "name": "オドシシ",
+    "base": "234",
+    "nickname": "ウレシシ",
+    "no": 234,
+    "getVideoNo": 52,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ドーブル",
+    "base": "235",
+    "nickname": "ダリ",
+    "no": 235,
+    "getVideoNo": 20,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "バルキー",
+    "base": "236",
+    "nickname": "ひろし",
+    "no": 236,
+    "getVideoNo": 31,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "カポエラー",
+    "base": "237",
+    "nickname": "こうじ",
+    "no": 237,
+    "getVideoNo": 10,
+    "eveVideoNo": 31,
+    "kanji": null
+  },
+  {
+    "name": "ムチュール",
+    "base": "238",
+    "nickname": "",
+    "no": 238,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "エレキッド",
+    "base": "239",
+    "nickname": "ナカタ",
+    "no": 239,
+    "getVideoNo": 5,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ブビィ",
+    "base": "240",
+    "nickname": "リョータ",
+    "no": 240,
+    "getVideoNo": 62,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ミルタンク",
+    "base": "241",
+    "nickname": "ミルねえ",
+    "no": 241,
+    "getVideoNo": 38,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ハピナス",
+    "base": "242",
+    "nickname": "",
+    "no": 242,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ライコウ",
+    "base": "243",
+    "nickname": "コテツ",
+    "no": 243,
+    "getVideoNo": 124,
+    "eveVideoNo": null,
+    "kanji": "虎徹"
+  },
+  {
+    "name": "エンテイ",
+    "base": "244",
+    "nickname": "コハク",
+    "no": 244,
+    "getVideoNo": 124,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "スイクン",
+    "base": "245",
+    "nickname": "コハル",
+    "no": 245,
+    "getVideoNo": 124,
+    "eveVideoNo": null,
+    "kanji": "湖波瑠"
+  },
+  {
+    "name": "ヨーギラス",
+    "base": "246",
+    "nickname": "ヨーすけ",
+    "no": 246,
+    "getVideoNo": 114,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "サナギラス",
+    "base": "247",
+    "nickname": "ナギすけ",
+    "no": 247,
+    "getVideoNo": 114,
+    "eveVideoNo": 115,
+    "kanji": null
+  },
+  {
+    "name": "バンギラス",
+    "base": "248",
+    "nickname": "ギラすけ",
+    "no": 248,
+    "getVideoNo": 47,
+    "eveVideoNo": 115,
+    "kanji": null
+  },
+  {
+    "name": "ルギア",
+    "base": "249",
+    "nickname": "しおから",
+    "no": 249,
+    "getVideoNo": 65,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ホウオウ",
+    "base": "250",
+    "nickname": "みやび",
+    "no": 250,
+    "getVideoNo": 35,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "セレビィ",
+    "base": "251",
+    "nickname": "このみ",
+    "no": 251,
+    "getVideoNo": 104,
+    "eveVideoNo": null,
+    "kanji": "木の実"
+  },
+  {
+    "name": "キモリ",
+    "base": "252",
+    "nickname": "よしずみ",
+    "no": 252,
+    "getVideoNo": 116,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ジュプトル",
+    "base": "253",
+    "nickname": "ゆうじろう",
+    "no": 253,
+    "getVideoNo": 116,
+    "eveVideoNo": 116,
+    "kanji": null
+  },
+  {
+    "name": "ジュカイン",
+    "base": "254",
+    "nickname": "しんたろう",
+    "no": 254,
+    "getVideoNo": 116,
+    "eveVideoNo": 116,
+    "kanji": null
+  },
+  {
+    "name": "アチャモ",
+    "base": "255",
+    "nickname": "カッちゃん",
+    "no": 255,
+    "getVideoNo": 95,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ワカシャモ",
+    "base": "256",
+    "nickname": "ニッキ",
+    "no": 256,
+    "getVideoNo": 95,
+    "eveVideoNo": 96,
+    "kanji": null
+  },
+  {
+    "name": "バシャーモ",
+    "base": "257",
+    "nickname": "ヒガシ",
+    "no": 257,
+    "getVideoNo": 94,
+    "eveVideoNo": 96,
+    "kanji": null
+  },
+  {
+    "name": "ミズゴロウ",
+    "base": "258",
+    "nickname": "かませいぬ",
+    "no": 258,
+    "getVideoNo": 32,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ヌマクロー",
+    "base": "259",
+    "nickname": "ギガンテス",
+    "no": 259,
+    "getVideoNo": 105,
+    "eveVideoNo": 106,
+    "kanji": null
+  },
+  {
+    "name": "ラグラージ",
+    "base": "260",
+    "nickname": "ベヒーモス",
+    "no": 260,
+    "getVideoNo": 105,
+    "eveVideoNo": 106,
+    "kanji": null
+  },
+  {
+    "name": "ポチエナ",
+    "base": "261",
+    "nickname": "ギン",
+    "no": 261,
+    "getVideoNo": 5,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "グラエナ",
+    "base": "262",
+    "nickname": "シルヴァ",
+    "no": 262,
+    "getVideoNo": 36,
+    "eveVideoNo": 37,
+    "kanji": null
+  },
+  {
+    "name": "ジグザグマ",
+    "base": "263",
+    "nickname": "わざマシン",
+    "no": 263,
+    "getVideoNo": 36,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "マッスグマ",
+    "base": "264",
+    "nickname": "キッド",
+    "no": 264,
+    "getVideoNo": 10,
+    "eveVideoNo": 36,
+    "kanji": null
+  },
+  {
+    "name": "ケムッソ",
+    "base": "265",
+    "nickname": "かぷり",
+    "no": 265,
+    "getVideoNo": 124,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "カラサリス",
+    "base": "266",
+    "nickname": "さゆり",
+    "no": 266,
+    "getVideoNo": 124,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アゲハント",
+    "base": "267",
+    "nickname": "ふわり",
+    "no": 267,
+    "getVideoNo": 125,
+    "eveVideoNo": 125,
+    "kanji": null
+  },
+  {
+    "name": "マユルド",
+    "base": "268",
+    "nickname": "まゆり",
+    "no": 268,
+    "getVideoNo": 124,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ドクケイル",
+    "base": "269",
+    "nickname": "きらり",
+    "no": 269,
+    "getVideoNo": 125,
+    "eveVideoNo": 125,
+    "kanji": null
+  },
+  {
+    "name": "ハスボー",
+    "base": "270",
+    "nickname": "ボンゴ",
+    "no": 270,
+    "getVideoNo": 105,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ハスブレロ",
+    "base": "271",
+    "nickname": "アミーゴ",
+    "no": 271,
+    "getVideoNo": 105,
+    "eveVideoNo": 106,
+    "kanji": null
+  },
+  {
+    "name": "ルンパッパ",
+    "base": "272",
+    "nickname": "サンバ",
+    "no": 272,
+    "getVideoNo": 105,
+    "eveVideoNo": 106,
+    "kanji": null
+  },
+  {
+    "name": "タネボー",
+    "base": "273",
+    "nickname": "コリキ",
+    "no": 273,
+    "getVideoNo": 78,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "コノハナ",
+    "base": "274",
+    "nickname": "ババ",
+    "no": 274,
+    "getVideoNo": 78,
+    "eveVideoNo": 78,
+    "kanji": null
+  },
+  {
+    "name": "ダーテング",
+    "base": "275",
+    "nickname": "イノキ",
+    "no": 275,
+    "getVideoNo": 78,
+    "eveVideoNo": 78,
+    "kanji": null
+  },
+  {
+    "name": "スバメ",
+    "base": "276",
+    "nickname": "ヤマダ",
+    "no": 276,
+    "getVideoNo": 117,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "オオスバメ",
+    "base": "277",
+    "nickname": "アオキ",
+    "no": 277,
+    "getVideoNo": 117,
+    "eveVideoNo": 118,
+    "kanji": null
+  },
+  {
+    "name": "キャモメ",
+    "base": "278",
+    "nickname": "ぴーこ",
+    "no": 278,
+    "getVideoNo": 55,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ペリッパー",
+    "base": "279",
+    "nickname": "はこびや",
+    "no": 279,
+    "getVideoNo": 55,
+    "eveVideoNo": 56,
+    "kanji": null
+  },
+  {
+    "name": "ラルトス",
+    "base": "280",
+    "nickname": "あかり",
+    "no": 280,
+    "getVideoNo": 113,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "キルリア",
+    "base": "281",
+    "nickname": "みらい",
+    "no": 281,
+    "getVideoNo": 113,
+    "eveVideoNo": 113,
+    "kanji": null
+  },
+  {
+    "name": "サーナイト",
+    "base": "282",
+    "nickname": "ひかり",
+    "no": 282,
+    "getVideoNo": 51,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アメタマ",
+    "base": "283",
+    "nickname": "たまこ",
+    "no": 283,
+    "getVideoNo": 120,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アメモース",
+    "base": "284",
+    "nickname": "あまね",
+    "no": 284,
+    "getVideoNo": 120,
+    "eveVideoNo": 121,
+    "kanji": "雨音"
+  },
+  {
+    "name": "キノココ",
+    "base": "285",
+    "nickname": "たけし",
+    "no": 285,
+    "getVideoNo": 16,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "キノガッサ",
+    "base": "286",
+    "nickname": "たけはら",
+    "no": 286,
+    "getVideoNo": 117,
+    "eveVideoNo": 118,
+    "kanji": null
+  },
+  {
+    "name": "ナマケロ",
+    "base": "287",
+    "nickname": "ゆうじ",
+    "no": 287,
+    "getVideoNo": 118,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ヤルキモノ",
+    "base": "288",
+    "nickname": "ゆうすけ",
+    "no": 288,
+    "getVideoNo": 17,
+    "eveVideoNo": 118,
+    "kanji": null
+  },
+  {
+    "name": "ケッキング",
+    "base": "289",
+    "nickname": "ゆうたろう",
+    "no": 289,
+    "getVideoNo": 118,
+    "eveVideoNo": 118,
+    "kanji": null
+  },
+  {
+    "name": "ツチニン",
+    "base": "290",
+    "nickname": "コタロウ",
+    "no": 290,
+    "getVideoNo": 75,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "テッカニン",
+    "base": "291",
+    "nickname": "ハンゾウ",
+    "no": 291,
+    "getVideoNo": 75,
+    "eveVideoNo": 76,
+    "kanji": null
+  },
+  {
+    "name": "ヌケニン",
+    "base": "292",
+    "nickname": "ゴエモン",
+    "no": 292,
+    "getVideoNo": 76,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ゴニョニョ",
+    "base": "293",
+    "nickname": "ＫＡＯＲＩ",
+    "no": 293,
+    "getVideoNo": 122,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ドゴーム",
+    "base": "294",
+    "nickname": "マツナガ",
+    "no": 294,
+    "getVideoNo": 122,
+    "eveVideoNo": 123,
+    "kanji": null
+  },
+  {
+    "name": "バクオング",
+    "base": "295",
+    "nickname": "ＫＯＯ",
+    "no": 295,
+    "getVideoNo": 122,
+    "eveVideoNo": 123,
+    "kanji": null
+  },
+  {
+    "name": "マクノシタ",
+    "base": "296",
+    "nickname": "もちきん",
+    "no": 296,
+    "getVideoNo": 122,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ハリテヤマ",
+    "base": "297",
+    "nickname": "はんぺん",
+    "no": 297,
+    "getVideoNo": 122,
+    "eveVideoNo": 123,
+    "kanji": null
+  },
+  {
+    "name": "ルリリ",
+    "base": "298",
+    "nickname": "まりこ",
+    "no": 298,
+    "getVideoNo": 62,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ノズパス",
+    "base": "299",
+    "nickname": "ローズ",
+    "no": 299,
+    "getVideoNo": 62,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "エネコ",
+    "base": "300",
+    "nickname": "ももこ",
+    "no": 300,
+    "getVideoNo": 127,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "エネコロロ",
+    "base": "301",
+    "nickname": "",
+    "no": 301,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ヤミラミ",
+    "base": "302",
+    "nickname": "きりまる",
+    "no": 302,
+    "getVideoNo": 37,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "クチート",
+    "base": "303",
+    "nickname": "やよい",
+    "no": 303,
+    "getVideoNo": 76,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ココドラ",
+    "base": "304",
+    "nickname": "Ｊ",
+    "no": 304,
+    "getVideoNo": 25,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "コドラ",
+    "base": "305",
+    "nickname": "Ｓ",
+    "no": 305,
+    "getVideoNo": 84,
+    "eveVideoNo": 86,
+    "kanji": null
+  },
+  {
+    "name": "ボスゴドラ",
+    "base": "306",
+    "nickname": "Ｂ",
+    "no": 306,
+    "getVideoNo": 84,
+    "eveVideoNo": 86,
+    "kanji": null
+  },
+  {
+    "name": "アサナン",
+    "base": "307",
+    "nickname": "さなたん",
+    "no": 307,
+    "getVideoNo": 9,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "チャーレム",
+    "base": "308",
+    "nickname": "れむたん",
+    "no": 308,
+    "getVideoNo": 48,
+    "eveVideoNo": 106,
+    "kanji": null
+  },
+  {
+    "name": "ラクライ",
+    "base": "309",
+    "nickname": "ゴハン",
+    "no": 309,
+    "getVideoNo": 52,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ライボルト",
+    "base": "310",
+    "nickname": "ゴクウ",
+    "no": 310,
+    "getVideoNo": 52,
+    "eveVideoNo": 53,
+    "kanji": null
+  },
+  {
+    "name": "プラスル",
+    "base": "311",
+    "nickname": "けんしん",
+    "no": 311,
+    "getVideoNo": 5,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "マイナン",
+    "base": "312",
+    "nickname": "はじめ",
+    "no": 312,
+    "getVideoNo": 128,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "バルビート",
+    "base": "313",
+    "nickname": "ひこぼし",
+    "no": 313,
+    "getVideoNo": 75,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "イルミーゼ",
+    "base": "314",
+    "nickname": "おりひめ",
+    "no": 314,
+    "getVideoNo": 75,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ロゼリア",
+    "base": "315",
+    "nickname": "アロマ",
+    "no": 315,
+    "getVideoNo": 78,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ゴクリン",
+    "base": "316",
+    "nickname": "つぼみ",
+    "no": 316,
+    "getVideoNo": 84,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "マルノーム",
+    "base": "317",
+    "nickname": "カトレア",
+    "no": 317,
+    "getVideoNo": 84,
+    "eveVideoNo": 85,
+    "kanji": null
+  },
+  {
+    "name": "キバニア",
+    "base": "318",
+    "nickname": "しらこ",
+    "no": 318,
+    "getVideoNo": 125,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "サメハダー",
+    "base": "319",
+    "nickname": "キャビア",
+    "no": 319,
+    "getVideoNo": 125,
+    "eveVideoNo": 125,
+    "kanji": null
+  },
+  {
+    "name": "ホエルコ",
+    "base": "320",
+    "nickname": "シンジョウ",
+    "no": 320,
+    "getVideoNo": 108,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ホエルオー",
+    "base": "321",
+    "nickname": "キヨハラ",
+    "no": 321,
+    "getVideoNo": 108,
+    "eveVideoNo": 109,
+    "kanji": null
+  },
+  {
+    "name": "ドンメル",
+    "base": "322",
+    "nickname": "ともえ",
+    "no": 322,
+    "getVideoNo": 62,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "バクーダ",
+    "base": "323",
+    "nickname": "ともよ",
+    "no": 323,
+    "getVideoNo": 121,
+    "eveVideoNo": 121,
+    "kanji": null
+  },
+  {
+    "name": "コータス",
+    "base": "324",
+    "nickname": "かずお",
+    "no": 324,
+    "getVideoNo": 62,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "バネブー",
+    "base": "325",
+    "nickname": "キャンディ",
+    "no": 325,
+    "getVideoNo": 31,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ブーピッグ",
+    "base": "326",
+    "nickname": "ぷっちょ",
+    "no": 326,
+    "getVideoNo": 110,
+    "eveVideoNo": 111,
+    "kanji": null
+  },
+  {
+    "name": "パッチール",
+    "base": "327",
+    "nickname": "インディ",
+    "no": 327,
+    "getVideoNo": 117,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ナックラー",
+    "base": "328",
+    "nickname": "きょうこ",
+    "no": 328,
+    "getVideoNo": 45,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ビブラーバ",
+    "base": "329",
+    "nickname": "かおり",
+    "no": 329,
+    "getVideoNo": 45,
+    "eveVideoNo": 46,
+    "kanji": null
+  },
+  {
+    "name": "フライゴン",
+    "base": "330",
+    "nickname": "さおり",
+    "no": 330,
+    "getVideoNo": 45,
+    "eveVideoNo": 118,
+    "kanji": null
+  },
+  {
+    "name": "サボネア",
+    "base": "331",
+    "nickname": "びすけ",
+    "no": 331,
+    "getVideoNo": 53,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ノクタス",
+    "base": "332",
+    "nickname": "くっきぃ",
+    "no": 332,
+    "getVideoNo": 53,
+    "eveVideoNo": 54,
+    "kanji": null
+  },
+  {
+    "name": "チルット",
+    "base": "333",
+    "nickname": "らむね",
+    "no": 333,
+    "getVideoNo": 89,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "チルタリス",
+    "base": "334",
+    "nickname": "しゃぼん",
+    "no": 334,
+    "getVideoNo": 89,
+    "eveVideoNo": 90,
+    "kanji": null
+  },
+  {
+    "name": "ザングース",
+    "base": "335",
+    "nickname": "ジョニー",
+    "no": 335,
+    "getVideoNo": 90,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ハブネーク",
+    "base": "336",
+    "nickname": "ハブねえ",
+    "no": 336,
+    "getVideoNo": 90,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ルナトーン",
+    "base": "337",
+    "nickname": "ジェリー",
+    "no": 337,
+    "getVideoNo": 83,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ソルロック",
+    "base": "338",
+    "nickname": "トム",
+    "no": 338,
+    "getVideoNo": 83,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ドジョッチ",
+    "base": "339",
+    "nickname": "リヴァイア",
+    "no": 339,
+    "getVideoNo": 105,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ナマズン",
+    "base": "340",
+    "nickname": "ユルムン",
+    "no": 340,
+    "getVideoNo": 105,
+    "eveVideoNo": 106,
+    "kanji": null
+  },
+  {
+    "name": "ヘイガニ",
+    "base": "341",
+    "nickname": "トニー",
+    "no": 341,
+    "getVideoNo": 120,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "シザリガー",
+    "base": "342",
+    "nickname": "スティーブ",
+    "no": 342,
+    "getVideoNo": 120,
+    "eveVideoNo": 121,
+    "kanji": null
+  },
+  {
+    "name": "ヤジロン",
+    "base": "343",
+    "nickname": "かんきち",
+    "no": 343,
+    "getVideoNo": 25,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ネンドール",
+    "base": "344",
+    "nickname": "だいじろう",
+    "no": 344,
+    "getVideoNo": 45,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "リリーラ",
+    "base": "345",
+    "nickname": "リリ",
+    "no": 345,
+    "getVideoNo": 123,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ユレイドル",
+    "base": "346",
+    "nickname": "メメ",
+    "no": 346,
+    "getVideoNo": 123,
+    "eveVideoNo": 123,
+    "kanji": null
+  },
+  {
+    "name": "アノプス",
+    "base": "347",
+    "nickname": "ウパ",
+    "no": 347,
+    "getVideoNo": 107,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "アーマルド",
+    "base": "348",
+    "nickname": "ボラ",
+    "no": 348,
+    "getVideoNo": 107,
+    "eveVideoNo": 109,
+    "kanji": null
+  },
+  {
+    "name": "ヒンバス",
+    "base": "349",
+    "nickname": "",
+    "no": 349,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ミロカロス",
+    "base": "350",
+    "nickname": "",
+    "no": 350,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ポワルン",
+    "base": "351",
+    "nickname": "ポワルン",
+    "no": 351,
+    "getVideoNo": 45,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "カクレオン",
+    "base": "352",
+    "nickname": "",
+    "no": 352,
+    "getVideoNo": null,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "カゲボウズ",
+    "base": "353",
+    "nickname": "てる",
+    "no": 353,
+    "getVideoNo": 37,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ジュペッタ",
+    "base": "354",
+    "nickname": "たくろう",
+    "no": 354,
+    "getVideoNo": 37,
+    "eveVideoNo": 112,
+    "kanji": null
+  },
+  {
+    "name": "ヨマワル",
+    "base": "355",
+    "nickname": "ホネじい",
+    "no": 355,
+    "getVideoNo": 83,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "サマヨール",
+    "base": "356",
+    "nickname": "まさよ",
+    "no": 356,
+    "getVideoNo": 85,
+    "eveVideoNo": 86,
+    "kanji": null
+  },
+  {
+    "name": "トロピウス",
+    "base": "357",
+    "nickname": "とろろ",
+    "no": 357,
+    "getVideoNo": 84,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "チリーン",
+    "base": "358",
+    "nickname": "さえ",
+    "no": 358,
+    "getVideoNo": 89,
+    "eveVideoNo": null,
+    "kanji": "咲笑"
+  },
+  {
+    "name": "アブソル",
+    "base": "359",
+    "nickname": "ＳＯＬ",
+    "no": 359,
+    "getVideoNo": 14,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ソーナノ",
+    "base": "360",
+    "nickname": "Ｒ",
+    "no": 360,
+    "getVideoNo": 122,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ユキワラシ",
+    "base": "361",
+    "nickname": "なおき",
+    "no": 361,
+    "getVideoNo": 63,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "オニゴーリ",
+    "base": "362",
+    "nickname": "よういち",
+    "no": 362,
+    "getVideoNo": 62,
+    "eveVideoNo": 115,
+    "kanji": null
+  },
+  {
+    "name": "タマザラシ",
+    "base": "363",
+    "nickname": "たまぞう",
+    "no": 363,
+    "getVideoNo": 125,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "トドグラー",
+    "base": "364",
+    "nickname": "あられ",
+    "no": 364,
+    "getVideoNo": 125,
+    "eveVideoNo": 125,
+    "kanji": null
+  },
+  {
+    "name": "トドゼルガ",
+    "base": "365",
+    "nickname": "ヒョウ",
+    "no": 365,
+    "getVideoNo": 125,
+    "eveVideoNo": 125,
+    "kanji": null
+  },
+  {
+    "name": "パールル",
+    "base": "366",
+    "nickname": "みずき",
+    "no": 366,
+    "getVideoNo": 120,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ハンテール",
+    "base": "367",
+    "nickname": "とうくろう",
+    "no": 367,
+    "getVideoNo": 120,
+    "eveVideoNo": 121,
+    "kanji": null
+  },
+  {
+    "name": "サクラビス",
+    "base": "368",
+    "nickname": "よしの",
+    "no": 368,
+    "getVideoNo": 120,
+    "eveVideoNo": 121,
+    "kanji": null
+  },
+  {
+    "name": "ジーランス",
+    "base": "369",
+    "nickname": "ウオじい",
+    "no": 369,
+    "getVideoNo": 108,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ラブカス",
+    "base": "370",
+    "nickname": "らぶりん",
+    "no": 370,
+    "getVideoNo": 108,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "タツベイ",
+    "base": "371",
+    "nickname": "タツノリ",
+    "no": 371,
+    "getVideoNo": 77,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "コモルー",
+    "base": "372",
+    "nickname": "サダハル",
+    "no": 372,
+    "getVideoNo": 77,
+    "eveVideoNo": 77,
+    "kanji": null
+  },
+  {
+    "name": "ボーマンダ",
+    "base": "373",
+    "nickname": "シゲオ",
+    "no": 373,
+    "getVideoNo": 77,
+    "eveVideoNo": 77,
+    "kanji": null
+  },
+  {
+    "name": "ダンバル",
+    "base": "374",
+    "nickname": "てつや",
+    "no": 374,
+    "getVideoNo": 10,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "メタング",
+    "base": "375",
+    "nickname": "てつろう",
+    "no": 375,
+    "getVideoNo": 35,
+    "eveVideoNo": 35,
+    "kanji": null
+  },
+  {
+    "name": "メタグロス",
+    "base": "376",
+    "nickname": "てっしん",
+    "no": 376,
+    "getVideoNo": 123,
+    "eveVideoNo": 123,
+    "kanji": null
+  },
+  {
+    "name": "レジロック",
+    "base": "377",
+    "nickname": "マカダミア",
+    "no": 377,
+    "getVideoNo": 122,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "レジアイス",
+    "base": "378",
+    "nickname": "ソーダ",
+    "no": 378,
+    "getVideoNo": 122,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "レジスチル",
+    "base": "379",
+    "nickname": "くろごま",
+    "no": 379,
+    "getVideoNo": 122,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ラティアス",
+    "base": "380",
+    "nickname": "こころ",
+    "no": 380,
+    "getVideoNo": 44,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ラティオス",
+    "base": "381",
+    "nickname": "しずく",
+    "no": 381,
+    "getVideoNo": 44,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "カイオーガ",
+    "base": "382",
+    "nickname": "オルキヌス",
+    "no": 382,
+    "getVideoNo": 28,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "グラードン",
+    "base": "383",
+    "nickname": "モンボ",
+    "no": 383,
+    "getVideoNo": 80,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "レックウザ",
+    "base": "384",
+    "nickname": "セラ",
+    "no": 384,
+    "getVideoNo": 87,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "ジラーチ",
+    "base": "385",
+    "nickname": "ララ",
+    "no": 385,
+    "getVideoNo": 60,
+    "eveVideoNo": null,
+    "kanji": null
+  },
+  {
+    "name": "デオキシス",
+    "base": "386",
+    "nickname": "オーロラ",
+    "no": 386,
+    "getVideoNo": 88,
+    "eveVideoNo": null,
+    "kanji": null
+  }
+]
