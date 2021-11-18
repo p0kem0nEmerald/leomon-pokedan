@@ -1,17 +1,19 @@
 import * as React from "react";
 
+import { combineNameNickname, getPokemonImgSrc } from "lib/pokemon";
+
 import PokemonLink from "components/Link/PokemonLink";
 import PropTypes from "prop-types";
 import ToolTip from "@mui/material/Tooltip";
 
 const PokemonIcon = ({ pokemon, imgProps, disableLink, ...props }) => {
   return disableLink ? (
-    <ToolTip title={`${pokemon.name}（${pokemon.nickname}）`}>
-      <img {...imgProps} src={`/images/sprites/${pokemon.base}.png`} />
+    <ToolTip title={combineNameNickname(pokemon)}>
+      <img {...imgProps} src={getPokemonImgSrc(pokemon)} />
     </ToolTip>
   ) : (
     <PokemonLink pokemon={pokemon}>
-      <img {...imgProps} src={`/images/sprites/${pokemon.base}.png`} />
+      <img {...imgProps} src={getPokemonImgSrc(pokemon)} />
     </PokemonLink>
   );
 };

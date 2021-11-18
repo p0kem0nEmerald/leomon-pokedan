@@ -1,7 +1,10 @@
 import * as React from "react";
 
 import Box from "@mui/material/Box";
+import CardFriendAreaThumbnail from "components/Cards/CardFriendAreaThumbnail";
+// import CardFriendAreaThumbnail from "components/Cards/CardFriendAreaThumbnail";
 import FilterListIcon from "@mui/icons-material/FilterList";
+import FriendAreaLink from "components/Link/FriendAreaLink";
 import IconButton from "@mui/material/IconButton";
 import InputAdornment from "@mui/material/InputAdornment";
 import InputBase from "@mui/material/InputBase";
@@ -23,65 +26,59 @@ import TableSortLabel from "@mui/material/TableSortLabel";
 import Toolbar from "@mui/material/Toolbar";
 import Tooltip from "@mui/material/Tooltip";
 import Typography from "@mui/material/Typography";
-import VideoLink from "components/Link/VideoLink";
+import { formatDate } from "lib/utils";
 import { visuallyHidden } from "@mui/utils";
 
 const headCells = [
   {
-    id: "no",
-    numeric: true,
-    label: "No.",
-    align: "right",
-    sortable: true,
-    getOrderValue: (pokemon) => pokemon.no,
-  },
-  {
-    id: "icon",
+    id: "cover",
     numeric: false,
-    label: "すがた",
+    label: "画像",
     align: "center",
     sortable: false,
-    getOrderValue: (pokemon) => pokemon.name,
+    getOrderValue: (friendArea) => friendArea.no,
+  },
+  {
+    id: "thumbnail",
+    numeric: false,
+    label: "名前",
+    align: "center",
+    sortable: false,
+    getOrderValue: (friendArea) => friendArea.id,
   },
   {
     id: "calories",
-    numeric: true,
-    label: "ポケモン",
+    numeric: false,
+    label: "説明",
     align: "left",
-    sortable: true,
-    getOrderValue: (pokemon) => pokemon.name,
+    sortable: false,
+    getOrderValue: (friendArea) => friendArea.name,
   },
   {
     id: "nickname",
     numeric: true,
-    label: "なまえ",
+    label: "エリア",
     align: "left",
     sortable: true,
-    getOrderValue: (pokemon) => pokemon.nickname,
+    getOrderValue: (friendArea) => new Date(friendArea.published_at),
   },
   {
     id: "carbs",
     numeric: true,
-    label: "かんじ",
+    label: "BGM",
     align: "left",
     sortable: true,
-    getOrderValue: (pokemon) => pokemon.kanji || "",
+    getOrderValue: (friendArea) =>
+      parseInt(friendArea.duration.slice(0, 2)) * 60 +
+      parseInt(friendArea.duration.slice(3, 5)),
   },
   {
     id: "protein",
     numeric: true,
     label: "ともだち",
-    align: "right",
+    align: "center",
     sortable: true,
-    getOrderValue: (pokemon) => pokemon.getVideoNo,
-  },
-  {
-    id: "protein2",
-    numeric: true,
-    label: "しんか",
-    align: "right",
-    sortable: true,
-    getOrderValue: (pokemon) => pokemon.evoVideoNo,
+    getOrderValue: (friendArea) => friendArea.getPokemons.length,
   },
 ];
 
@@ -113,7 +110,7 @@ const stableSort = (array, comparator) => {
   return stabilizedThis.map((el) => el[0]);
 };
 
-function PokemonTableHead(props) {
+function FriendAreaTableHead(props) {
   const { order, orderBy, rowCount, onRequestSort } = props;
   const createSortHandler = (property) => (event) => {
     onRequestSort(event, property);
@@ -154,15 +151,15 @@ function PokemonTableHead(props) {
   );
 }
 
-PokemonTableHead.propTypes = {
+FriendAreaTableHead.propTypes = {
   onRequestSort: PropTypes.func.isRequired,
   order: PropTypes.oneOf(["asc", "desc"]).isRequired,
   orderBy: PropTypes.string.isRequired,
   rowCount: PropTypes.number.isRequired,
 };
 
-const PokemonTable = ({
-  pokemons,
+const FriendAreaTable = ({
+  friendAreas,
   defaultRowsPerPage,
   rowsPerPageOptions,
   ...props
@@ -192,7 +189,7 @@ const PokemonTable = ({
 
   // Avoid a layout jump when reaching the last page with empty rows.
   const emptyRows =
-    page > 0 ? Math.max(0, (1 + page) * rowsPerPage - pokemons.length) : 0;
+    page > 0 ? Math.max(0, (1 + page) * rowsPerPage - friendAreas.length) : 0;
 
   return (
     <Box className="w-full">
@@ -203,19 +200,23 @@ const PokemonTable = ({
             pr: { xs: 1, sm: 1 },
           }}
         >
-          <InputBase
-            className="ml-1 w-full px-1"
-            placeholder="「ポケモン」か「なまえ」を入力"
-            inputProps={{ className: "focus:ring-0 bg-gray-100" }}
-            value={filterText}
-            onChange={(e) => {
-              setFilterText(e.target.value);
+          <PokemonAutocomplete
+            inputValue={filterText}
+            setInputValue={setFilterText}
+            textFieldProps={{
+              label: "「ポケモン」か「なまえ」を入力",
+              inputProps: {
+                className: "focus:ring-0 bg-gray-100",
+              },
+              // InputProps: {
+              //   startAdornment: (
+              //     <InputAdornment position="start">
+              //       <SearchIcon />
+              //     </InputAdornment>
+              //   ),
+              // },
             }}
-            startAdornment={
-              <InputAdornment position="start">
-                <SearchIcon />
-              </InputAdornment>
-            }
+            className="ml-1 w-full px-1"
           />
           <Tooltip title="まだ使えません。">
             <IconButton>
@@ -230,67 +231,61 @@ const PokemonTable = ({
             aria-labelledby="tableTitle"
             size={"medium"}
           >
-            <PokemonTableHead
+            <FriendAreaTableHead
               order={order}
               orderBy={orderBy}
               onRequestSort={handleRequestSort}
-              rowCount={pokemons.length}
+              rowCount={friendAreas.length}
             />
             <TableBody>
               {/* if you don't need to support IE11, you can replace the `stableSort` call with:
                  rows.slice().sort(getComparator(order, orderBy)) */}
               {stableSort(
-                pokemons.filter(
-                  (pokemon) =>
-                    pokemon.name.includes(filterText) ||
-                    pokemon.nickname.includes(filterText)
-                ),
+                filterText.length > 0
+                  ? friendAreas.filter((friendArea) =>
+                      friendArea.getPokemons
+                        .concat(friendArea.evoPokemons)
+                        .some((pokemon) => pokemon.name.includes(filterText))
+                    )
+                  : friendAreas,
                 getComparator(order, getOrderValue)
               )
                 .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
-                .map((pokemon, index) => {
+                .map((friendArea, index) => {
                   const labelId = `enhanced-table-checkbox-${index}`;
 
                   return (
-                    <TableRow hover tabIndex={-1} key={pokemon.base}>
+                    <TableRow hover tabIndex={-1} key={friendArea}>
                       <TableCell
                         component="th"
                         id={labelId}
                         scope="row"
-                        align="right"
+                        align="center"
                       >
-                        {pokemon.no}
-                      </TableCell>
-                      <TableCell align="center">
-                        <PokemonIcon
-                          pokemon={pokemon}
-                          imgProps={{ className: "mx-auto" }}
+                        <CardFriendAreaThumbnail
+                          friendArea={friendArea}
+                          style={{ width: "160px" }}
+                          imgProps={{
+                            className: "object-cover",
+                          }}
                         />
                       </TableCell>
+                      <TableCell align="center">{friendArea.name}</TableCell>
                       <TableCell align="left">
-                        <PokemonLink pokemon={pokemon}>
-                          {pokemon.name}
-                        </PokemonLink>
+                        {friendArea.description.replaceAll("\n", " ")}
                       </TableCell>
-                      <TableCell align="left">
-                        <PokemonLink pokemon={pokemon}>
-                          {pokemon.nickname}
-                        </PokemonLink>
-                      </TableCell>
-                      <TableCell align="left">{pokemon.kanji}</TableCell>
+                      <TableCell align="right">{friendArea.category}</TableCell>
+                      <TableCell align="left">{friendArea.bgm}</TableCell>
                       <TableCell align="right">
-                        <VideoLink videoNo={pokemon.getVideoNo}>
-                          <span style={{ color: "#065fd4" }}>
-                            #{pokemon.getVideoNo}
-                          </span>
-                        </VideoLink>
-                      </TableCell>
-                      <TableCell align="right">
-                        <VideoLink videoNo={pokemon.evoVideoNo}>
-                          <span style={{ color: "#065fd4" }}>
-                            #{pokemon.evoVideoNo}
-                          </span>
-                        </VideoLink>
+                        <div className="flex flex-wrap items-center justify-center">
+                          {friendArea.pokemons.map((pokemon) => (
+                            <PokemonIcon
+                              pokemon={pokemon}
+                              disableLink={true}
+                              className="flex flex-1 m-1"
+                            />
+                          ))}
+                        </div>
                       </TableCell>
                     </TableRow>
                   );
@@ -310,7 +305,7 @@ const PokemonTable = ({
         <TablePagination
           rowsPerPageOptions={rowsPerPageOptions}
           component="div"
-          count={pokemons.length}
+          count={friendAreas.length}
           rowsPerPage={rowsPerPage}
           page={page}
           onPageChange={handleChangePage}
@@ -321,14 +316,14 @@ const PokemonTable = ({
   );
 };
 
-PokemonTable.propTypes = {
+FriendAreaTable.propTypes = {
   rowsPerPageOptions: PropTypes.arrayOf(PropTypes.number),
   defaultRowsPerPage: PropTypes.number,
 };
 
-PokemonTable.defaultProps = {
-  rowsPerPageOptions: [50, 150, 450],
-  defaultRowsPerPage: 150,
+FriendAreaTable.defaultProps = {
+  rowsPerPageOptions: [10, 30, 60],
+  defaultRowsPerPage: 60,
 };
 
-export default PokemonTable;
+export default FriendAreaTable;

@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { SNS } from "data/js/sns";
 import { createPopper } from "@popperjs/core";
+import { getProfileImgSrc } from "lib/profile";
 import profileData from "data/json/profile";
 
 const UserDropdown = ({ name, ...props }) => {
@@ -19,7 +20,7 @@ const UserDropdown = ({ name, ...props }) => {
     setDropdownPopoverShow(false);
   };
 
-  const profile = profileData[name];
+  const profile = profileData.find((e) => e.name === name);
 
   return (
     <>
@@ -37,7 +38,7 @@ const UserDropdown = ({ name, ...props }) => {
             <img
               alt={name}
               className="w-full rounded-full align-middle border-none shadow-lg"
-              src={`/img/youtube/profile/${name}.jpg`}
+              src={getProfileImgSrc(profile)}
             />
           </span>
         </div>

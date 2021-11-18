@@ -5,9 +5,7 @@ import Link from "next/link";
 import { SNS } from "data/js/sns";
 import profileData from "data/json/profile";
 
-export default function Profile({ name }) {
-  const profile = profileData[name];
-
+export default function Profile({ profile }) {
   return (
     <>
       {/* <Navbar transparent /> */}
@@ -16,7 +14,7 @@ export default function Profile({ name }) {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage: `url(/img/youtube/cover/${name}.jpeg)`,
+              backgroundImage: `url(/img/youtube/cover/${profile.name}.jpeg)`,
             }}
           >
             <span
@@ -53,7 +51,7 @@ export default function Profile({ name }) {
                     <div className="relative">
                       <img
                         alt="..."
-                        src={`/img/youtube/profile/${name}.jpg`}
+                        src={`/img/youtube/profile/${profile.name}.jpg`}
                         className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
                       />
                     </div>
@@ -111,8 +109,8 @@ export default function Profile({ name }) {
 }
 
 export async function getStaticPaths() {
-  const paths = Object.keys(profileData).map((name) => ({
-    params: { name: name },
+  const paths = profileData.map((e) => ({
+    params: { name: e.name },
   }));
   return {
     paths,
@@ -121,9 +119,10 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
+  const profile = profileData.find((e) => e.name === params.name);
   return {
     props: {
-      name: params.name,
+      profile: profile,
     },
   };
 }

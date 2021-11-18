@@ -8,6 +8,7 @@ import InputAdornment from "@mui/material/InputAdornment";
 import InputBase from "@mui/material/InputBase";
 import Link from "next/link";
 import Paper from "@mui/material/Paper";
+import PokemonAutocomplete from "components/Pokemon/PokemonAutocomplete";
 import PokemonIcon from "components/Pokemon/PokemonIcon";
 import PokemonLink from "components/Link/PokemonLink";
 import PropTypes from "prop-types";
@@ -198,27 +199,31 @@ const VideoTable = ({
     page > 0 ? Math.max(0, (1 + page) * rowsPerPage - videos.length) : 0;
 
   return (
-    <Box sx={{ width: "100%" }}>
-      <Paper sx={{ width: "100%", mb: 2 }}>
+    <Box className="w-full">
+      <Paper className="w-full mb-2">
         <Toolbar
           sx={{
             pl: { sm: 2 },
             pr: { xs: 1, sm: 1 },
           }}
         >
-          <InputBase
-            className="ml-1 w-full px-1"
-            placeholder="動画でともだちになった「ポケモン」か「なまえ」を入力"
-            inputProps={{ className: "focus:ring-0 bg-gray-100" }}
-            value={filterText}
-            onChange={(e) => {
-              setFilterText(e.target.value);
+          <PokemonAutocomplete
+            inputValue={filterText}
+            setInputValue={setFilterText}
+            textFieldProps={{
+              label: "「ポケモン」か「なまえ」を入力",
+              inputProps: {
+                className: "focus:ring-0 bg-gray-100",
+              },
+              // InputProps: {
+              //   startAdornment: (
+              //     <InputAdornment position="start">
+              //       <SearchIcon />
+              //     </InputAdornment>
+              //   ),
+              // },
             }}
-            startAdornment={
-              <InputAdornment position="start">
-                <SearchIcon />
-              </InputAdornment>
-            }
+            className="ml-1 w-full px-1"
           />
           <Tooltip title="まだ使えません。">
             <IconButton>
@@ -226,7 +231,7 @@ const VideoTable = ({
             </IconButton>
           </Tooltip>
         </Toolbar>
-        <TableContainer sx={{ maxHeight: 500 }}>
+        <TableContainer sx={{ height: "calc(100vh - 300px)" }}>
           <Table
             stickyHeader
             sx={{ minWidth: 750 }}
@@ -244,18 +249,10 @@ const VideoTable = ({
                  rows.slice().sort(getComparator(order, orderBy)) */}
               {stableSort(
                 filterText.length > 0
-                  ? videos.filter(
-                      (video) =>
-                        video.getPokemons.some(
-                          (pokemon) =>
-                            pokemon.name.includes(filterText) ||
-                            pokemon.nickname.includes(filterText)
-                        ) ||
-                        video.evoPokemons.some(
-                          (pokemon) =>
-                            pokemon.name.includes(filterText) ||
-                            pokemon.nickname.includes(filterText)
-                        )
+                  ? videos.filter((video) =>
+                      video.getPokemons
+                        .concat(video.evoPokemons)
+                        .some((pokemon) => pokemon.name.includes(filterText))
                     )
                   : videos,
                 getComparator(order, getOrderValue)
@@ -283,7 +280,8 @@ const VideoTable = ({
                         />
                       </TableCell>
                       <TableCell align="left">
-                        {video.description.slice(0, 50)}...
+                        {video.description.slice(0, 50).replaceAll("\n", " ")}
+                        ...
                       </TableCell>
                       <TableCell align="left">
                         {formatDate(new Date(video.published_at))}
@@ -296,16 +294,6 @@ const VideoTable = ({
                               pokemon={pokemon}
                               disableLink={true}
                               className="flex flex-1 m-1"
-                              imgProps={
-                                filterText.length > 0 &&
-                                (pokemon.nickname.includes(filterText) ||
-                                  pokemon.name.includes(filterText)) && {
-                                  style: {
-                                    backgroundColor: "red",
-                                    borderRadius: "100%",
-                                  },
-                                }
-                              }
                             />
                           ))}
                         </div>
@@ -317,16 +305,6 @@ const VideoTable = ({
                               pokemon={pokemon}
                               disableLink={true}
                               className="flex flex-1 m-1"
-                              imgProps={
-                                filterText.length > 0 &&
-                                (pokemon.nickname.includes(filterText) ||
-                                  pokemon.name.includes(filterText)) && {
-                                  style: {
-                                    backgroundColor: "red",
-                                    borderRadius: "100%",
-                                  },
-                                }
-                              }
                             />
                           ))}
                         </div>

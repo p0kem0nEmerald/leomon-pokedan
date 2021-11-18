@@ -8,6 +8,7 @@ import CardHeader from "@mui/material/CardHeader";
 import CardMedia from "@mui/material/CardMedia";
 import FriendAreaLink from "components/Link/FriendAreaLink";
 import Typography from "@mui/material/Typography";
+import { getFriendAreaImgSrc } from "lib/friend-area";
 
 const CardFriendArea = ({ friendArea, ...props }) => {
   return (
@@ -21,8 +22,12 @@ const CardFriendArea = ({ friendArea, ...props }) => {
           <CardMedia
             component="img"
             height="194"
-            image={`/images/friend-areas/${friendArea.base}.png`}
+            image={getFriendAreaImgSrc(friendArea)}
             alt={friendArea.name}
+            className="object-cover"
+            sx={{
+              objectFit: "cover",
+            }}
           />
           <CardContent>
             <Typography variant="body2" color="text.secondary">

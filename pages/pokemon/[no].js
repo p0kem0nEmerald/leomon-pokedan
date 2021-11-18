@@ -1,7 +1,7 @@
 import * as React from "react";
 
 import Admin from "layouts/Admin.js";
-import Pokemons from "data/json/pokemon";
+import PokemonData from "data/json/pokemon";
 
 export default function Pokemon({ pokemon }) {
   return (
@@ -12,7 +12,7 @@ export default function Pokemon({ pokemon }) {
 }
 
 export async function getStaticPaths() {
-  const paths = Pokemons.map((pokemon) => ({
+  const paths = PokemonData.map((pokemon) => ({
     params: { no: pokemon.base },
   }));
   return {
@@ -24,7 +24,7 @@ export async function getStaticPaths() {
 export async function getStaticProps({ params }) {
   return {
     props: {
-      pokemon: Pokemons.filter((pokemon) => pokemon.base == params.no)[0],
+      pokemon: PokemonData.filter((pokemon) => pokemon.base == params.no)[0],
     },
   };
 }

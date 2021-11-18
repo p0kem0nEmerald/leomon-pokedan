@@ -1,13 +1,15 @@
-{
-  "Leomon": {
+[
+  {
+    "name": "Leomon",
     "ja": "レオモン",
     "youtube": "LeomonTube",
     "twitter": "K_LEOMON"
   },
-  "p0kem0nEmerald": {
+  {
+    "name": "p0kem0nEmerald",
     "ja": "エメラルドを風化させないChannel",
     "youtube": "p0kem0nEmerald",
     "twitter": "p0kem0nEmerald",
     "github": "p0kem0nEmerald"
   }
-}
+]
