@@ -5,6 +5,7 @@ import Link from "next/link";
 import NewLineText from "components/Typography/NewLineText";
 import ProfileData from "data/json/profile";
 import { SNS } from "data/js/sns";
+import { getProfileCoverImgSrc } from "lib/profile";
 
 export default function Profile({ profile }) {
   return (
@@ -15,7 +16,7 @@ export default function Profile({ profile }) {
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
-              backgroundImage: `url(/img/youtube/cover/${profile.name}.jpeg)`,
+              backgroundImage: `url("${getProfileCoverImgSrc(profile)}")`,
             }}
           >
             <span
@@ -51,8 +52,8 @@ export default function Profile({ profile }) {
                   <div className="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">
                     <div className="relative">
                       <img
-                        alt="..."
-                        src={`/img/youtube/profile/${profile.name}.jpg`}
+                        alt={profile.name}
+                        src={`url("${getProfileCoverImgSrc(profile)}")`}
                         className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
                       />
                     </div>

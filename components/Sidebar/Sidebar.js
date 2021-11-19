@@ -116,10 +116,7 @@ export default function Sidebar() {
                 return (
                   <li className="items-center" key={profile.name}>
                     <Link href={`/profile/${profile.name}`}>
-                      <a
-                        href="#pablo"
-                        className="text-blueGray-700 hover:text-blueGray-500 text-xs py-1 font-bold block"
-                      >
+                      <a className="text-blueGray-700 hover:text-blueGray-500 text-xs py-1 font-bold block">
                         <img
                           src={getProfileImgSrc(profile)}
                           alt={profile.name}

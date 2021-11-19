@@ -1,12 +1,14 @@
 import * as React from "react";
 
+import { assertAssetPrefix } from "lib/utils";
+
 export default function PageChange(props) {
   return (
     <div>
       <div
         className="bg-cover fixed z-40 w-full h-full top-0 left-0"
         style={{
-          backgroundImage: "url('/img/wallpaper.gif')",
+          backgroundImage: `url("${assertAssetPrefix("/img/wallpaper.gif")}")`,
         }}
       ></div>
       <div className="top-0 left-0 w-full h-full block z-50 absolute bg-black bg-opacity-50"></div>
