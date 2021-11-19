@@ -1,6 +1,7 @@
 import * as React from "react";
 
 import CardActionArea from "@mui/material/CardActionArea";
+import Image from "next/image";
 import PropTypes from "prop-types";
 import VideoLink from "components/Link/VideoLink";
 
@@ -16,10 +17,15 @@ const CardVideoThumbnail = ({
     <VideoLink videoNo={videoNo}>
       <CardActionArea {...props}>
         {/* Thumbnail Images */}
-        <img
+        <Image
           src={`https://i.ytimg.com/vi/${id}/maxresdefault.jpg`}
+          alt={id}
+          // layout={"fill"}
+          width={1280}
+          height={720}
           {...imgProps}
         />
+
         {/* Overlays for Thumbnail */}
         <div {...overlayProps}>
           <div className="absolute bottom-0 right-0 bg-black text-white m-1 p-1 flex flex-row items-center text-xs font-bold h-5 rounded-sm">

@@ -1,5 +1,6 @@
-import React from "react";
-import UserDropDown from "components/Dropdowns/UserDropdown";
+import * as React from "react";
+
+import Link from "next/link";
 
 export default function FooterAdmin() {
   return (
@@ -30,12 +31,11 @@ export default function FooterAdmin() {
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="/profile/p0kem0nEmerald"
-                    className="text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3"
-                  >
-                    p0kem0nEmerald
-                  </a>
+                  <Link href={"/profile/p0kem0nEmerald"}>
+                    <a className="text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3">
+                      p0kem0nEmerald
+                    </a>
+                  </Link>
                 </li>
                 <li>
                   <a

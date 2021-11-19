@@ -15,7 +15,8 @@ const NewLineText = ({ text, ...props }) => {
               componentDecorator={(decoratedHref, decoratedText, key) => (
                 <a
                   style={{ color: "#065fd4" }}
-                  target="_blank"
+                  // target="_blank"
+                  // rel="noopener"
                   href={decoratedHref}
                   key={key}
                 >

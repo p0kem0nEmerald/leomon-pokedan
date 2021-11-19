@@ -7,11 +7,11 @@ const PokemonIcons = ({ pokemons, iconProps, ...props }) => (
   <div className="flex flex-wrap items-center justify-center" {...props}>
     {pokemons.map((pokemon) => (
       <PokemonIcon
+        key={pokemon.base}
         pokemon={pokemon}
         disableLink={false}
         className="flex flex-1 m-1"
         {...iconProps}
-        key={pokemon.base}
       />
     ))}
   </div>

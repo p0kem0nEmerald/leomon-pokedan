@@ -36,7 +36,7 @@ const PokemonList = ({ pokemons, title, defaultIsOpen, ...props }) => {
       <Collapse in={isOpen} timeout="auto" unmountOnExit>
         {pokemons.map((pokemon) => {
           return (
-            <PokemonLink pokemon={pokemon}>
+            <PokemonLink pokemon={pokemon} key={pokemon.base}>
               <List component="div" disablePadding>
                 <ListItemButton>
                   <PokemonIcon
@@ -44,8 +44,8 @@ const PokemonList = ({ pokemons, title, defaultIsOpen, ...props }) => {
                     imgProps={{ className: "w-8 mr-4 m-auto" }}
                     disableLink={true}
                   />
-
                   <ListItemText
+                    key={pokemon.base}
                     primary={`${pokemon.nickname} (${pokemon.name})`}
                   />
                 </ListItemButton>

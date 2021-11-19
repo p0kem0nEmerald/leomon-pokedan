@@ -24,13 +24,6 @@ export default function Videos({ videos }) {
           inputProps: {
             className: "focus:ring-0 bg-gray-100",
           },
-          // InputProps: {
-          //   startAdornment: (
-          //     <InputAdornment position="start">
-          //       <SearchIcon />
-          //     </InputAdornment>
-          //   ),
-          // },
         }}
         className="ml-1 w-full px-1"
       />
@@ -44,8 +37,8 @@ export default function Videos({ videos }) {
               )
             : videos
           ).map((video) => (
-            <Grid item xs={6} md={4} lg={3}>
-              <CardVideo key={video.base} video={video} className="m-1" />
+            <Grid item xs={6} md={4} lg={3} key={video.id}>
+              <CardVideo video={video} className="m-1" />
             </Grid>
           ))}
         </Grid>

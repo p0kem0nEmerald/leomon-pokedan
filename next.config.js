@@ -5,4 +5,7 @@ module.exports = {
   assetPrefix: urlPrefix,
   basePath: urlPrefix,
   trailingSlash: true,
+  images: {
+    domains: ["i.ytimg.com"],
+  },
 };

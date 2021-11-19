@@ -114,7 +114,7 @@ export default function Video({ video, getPokemons, evoPokemons }) {
             <SectionTitle>{video.title}</SectionTitle>
             <div className="flex">
               <div className="flex ml-auto mr-4">
-                Published at "<DMYdate>{video.published_at}</DMYdate>"
+                Published at <DMYdate>{video.published_at}</DMYdate>
               </div>
             </div>
             <Divider />

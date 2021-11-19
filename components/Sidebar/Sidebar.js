@@ -77,7 +77,7 @@ export default function Sidebar() {
               {SidebarMainRoutes.map((route, i) => {
                 const isTarget = route.isTarget(router.pathname);
                 return (
-                  <li className="items-center" key={i}>
+                  <li className="items-center" key={route.label}>
                     <Link href={route.path}>
                       <a
                         href="#"
@@ -110,7 +110,7 @@ export default function Sidebar() {
             <ul className="md:flex-col md:min-w-full flex flex-col list-none md:mb-2">
               {ProfileData.map((profile) => {
                 return (
-                  <li className="items-center">
+                  <li className="items-center" key={profile.name}>
                     <Link href={`/profile/${profile.name}`}>
                       <a
                         href="#pablo"

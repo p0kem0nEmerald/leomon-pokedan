@@ -2,18 +2,13 @@ import * as React from "react";
 
 import Flippy, { BackSide, FrontSide } from "react-flippy";
 
-import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Card from "@mui/material/Card";
-import CardActionArea from "@mui/material/CardActionArea";
 import CardContent from "@mui/material/CardContent";
-import CardHeader from "@mui/material/CardHeader";
 import CardMedia from "@mui/material/CardMedia";
 import PokemonIcons from "components/Pokemon/PokemonIcons";
-import Typography from "@mui/material/Typography";
-import VideoLink from "components/Link/videoLink";
+import VideoLink from "components/Link/VideoLink";
 import YouTubeIcon from "@mui/icons-material/YouTube";
-import { formatDate } from "lib/utils";
 import { getVideoThumbSrc } from "lib/video";
 
 const CardVideo = ({ video, ...props }) => {
