@@ -23,7 +23,7 @@ jobs:
       - name: Build Next.js app
         run: npm run build
         env:
-          URL_PREFIX: leomon-pokedan
+          URL_PREFIX: "leomon-pokedan"
 
       - name: Export Next.js app
         run: npm run export

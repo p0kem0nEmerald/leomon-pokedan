@@ -15,7 +15,11 @@ const CardFriendAreaThumbnail = ({
     <FriendAreaLink friendArea={friendArea}>
       <CardActionArea {...props}>
         {/* Thumbnail Images */}
-        <img src={getFriendAreaImgSrc(friendArea)} {...imgProps} />
+        <img
+          src={getFriendAreaImgSrc(friendArea)}
+          alt={friendArea.base}
+          {...imgProps}
+        />
       </CardActionArea>
     </FriendAreaLink>
   );

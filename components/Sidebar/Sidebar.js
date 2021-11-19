@@ -28,7 +28,11 @@ export default function Sidebar() {
               href="#pablo"
               className="md:block text-left text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold py-1 px-0"
             >
-              <img src="/img/LeoTube.png" className="px-6 hidden md:block" />
+              <img
+                src="/img/LeoTube.png"
+                alt="LeoTube"
+                className="px-6 hidden md:block"
+              />
             </a>
           </Link>
           {/* User */}
@@ -118,6 +122,7 @@ export default function Sidebar() {
                       >
                         <img
                           src={getProfileImgSrc(profile)}
+                          alt={profile.name}
                           className="w-8 rounded-full mr-2 inline-block"
                         />
                         {` ${profile.name}`}
@@ -147,6 +152,7 @@ export default function Sidebar() {
                       >
                         <img
                           src={`https://p0kem0nemerald.github.io/static/images/_site/favicon/${content.base}.png`}
+                          alt={content.base}
                           className="w-8 rounded-full mr-2 inline-block"
                         />
                         {` ${content.label}`}
