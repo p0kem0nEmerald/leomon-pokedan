@@ -53,7 +53,7 @@ export default function Profile({ profile }) {
                     <div className="relative">
                       <img
                         alt={profile.name}
-                        src={`url("${getProfileCoverImgSrc(profile)}")`}
+                        src={getProfileCoverImgSrc(profile)}
                         className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
                       />
                     </div>
