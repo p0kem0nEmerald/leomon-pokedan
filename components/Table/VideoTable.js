@@ -288,8 +288,7 @@ const VideoTable = ({
                         />
                       </TableCell>
                       <TableCell align="left">
-                        {video.description.slice(0, 50).replaceAll("\n", " ")}
-                        ...
+                        {`${video.description.slice(0, 50)}...`}
                       </TableCell>
                       <TableCell align="left">
                         {formatDate(new Date(video.published_at))}

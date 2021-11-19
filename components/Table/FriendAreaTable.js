@@ -271,7 +271,7 @@ const FriendAreaTable = ({
                       </TableCell>
                       <TableCell align="center">{friendArea.name}</TableCell>
                       <TableCell align="left">
-                        {friendArea.description.replaceAll("\n", " ")}
+                        {friendArea.description}
                       </TableCell>
                       <TableCell align="right">{friendArea.category}</TableCell>
                       <TableCell align="left">{friendArea.bgm}</TableCell>
