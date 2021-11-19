@@ -304,6 +304,7 @@ const FriendAreaTable = ({
           page={page}
           onPageChange={handleChangePage}
           onRowsPerPageChange={handleChangeRowsPerPage}
+          className="border-t"
         />
       </Paper>
     </Box>

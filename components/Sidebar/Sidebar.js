@@ -74,10 +74,10 @@ export default function Sidebar() {
               Pages
             </h6>
             <ul className="md:flex-col md:min-w-full flex flex-col list-none">
-              {SidebarMainRoutes.map((route) => {
+              {SidebarMainRoutes.map((route, i) => {
                 const isTarget = route.isTarget(router.pathname);
                 return (
-                  <li className="items-center">
+                  <li className="items-center" key={i}>
                     <Link href={route.path}>
                       <a
                         href="#"

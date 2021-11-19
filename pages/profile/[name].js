@@ -2,8 +2,9 @@ import * as React from "react";
 
 import Admin from "layouts/Admin.js";
 import Link from "next/link";
+import NewLineText from "components/Typography/NewLineText";
+import ProfileData from "data/json/profile";
 import { SNS } from "data/js/sns";
-import profileData from "data/json/profile";
 
 export default function Profile({ profile }) {
   return (
@@ -63,10 +64,11 @@ export default function Profile({ profile }) {
                     <div className="flex justify-center py-4 lg:pt-4 pt-8">
                       {SNS.map((sns) => {
                         const profile_sns = profile[sns.name];
+                        const url = `${sns.base}/${profile_sns}`;
                         return (
                           profile_sns && (
                             <div className="mr-4 p-3 text-center">
-                              <Link href={`${sns.base}/${profile_sns}`}>
+                              <Link href={url}>
                                 <a>
                                   <span className="text-xl font-bold block uppercase tracking-wide text-blueGray-600">
                                     {sns.icon({
@@ -94,7 +96,7 @@ export default function Profile({ profile }) {
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
                       <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
-                        {profile.bio}
+                        <NewLineText text={profile.bio} />
                       </p>
                     </div>
                   </div>
@@ -109,7 +111,7 @@ export default function Profile({ profile }) {
 }
 
 export async function getStaticPaths() {
-  const paths = profileData.map((e) => ({
+  const paths = ProfileData.map((e) => ({
     params: { name: e.name },
   }));
   return {
@@ -119,7 +121,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const profile = profileData.find((e) => e.name === params.name);
+  const profile = ProfileData.find((e) => e.name === params.name);
   return {
     props: {
       profile: profile,

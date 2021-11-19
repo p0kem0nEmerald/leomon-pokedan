@@ -56,6 +56,7 @@ const FriendsChart = ({ options, height, ...props }) => {
                 style={{
                   color: e.color,
                 }}
+                key={e.label}
               />
             ))}
           </RadioGroup>

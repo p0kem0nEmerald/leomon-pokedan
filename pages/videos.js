@@ -15,7 +15,7 @@ import YouTubeData from "data/json/youtube";
 export default function Videos({ videos }) {
   const [filterText, setFilterText] = React.useState("");
   return (
-    <div className="flex flex-col relative">
+    <div className="flex flex-col relative bg-white p-3">
       <PokemonAutocomplete
         inputValue={filterText}
         setInputValue={setFilterText}
@@ -36,16 +36,18 @@ export default function Videos({ videos }) {
       />
       <div className="flex flex-wrap justify-start m-2">
         <Grid container>
-          {videos.map(
-            (video) =>
-              video.getPokemons
-                .concat(video.evoPokemons)
-                .some((pokemon) => pokemon.name.includes(filterText)) && (
-                <Grid item xs={6} md={4} lg={3}>
-                  <CardVideo key={video.base} video={video} className="m-1" />
-                </Grid>
+          {(filterText.length > 0
+            ? videos.filter((video) =>
+                video.getPokemons
+                  .concat(video.evoPokemons)
+                  .some((pokemon) => pokemon.name.includes(filterText))
               )
-          )}
+            : videos
+          ).map((video) => (
+            <Grid item xs={6} md={4} lg={3}>
+              <CardVideo key={video.base} video={video} className="m-1" />
+            </Grid>
+          ))}
         </Grid>
       </div>
     </div>

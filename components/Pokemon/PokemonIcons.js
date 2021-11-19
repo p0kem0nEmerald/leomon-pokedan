@@ -11,6 +11,7 @@ const PokemonIcons = ({ pokemons, iconProps, ...props }) => (
         disableLink={false}
         className="flex flex-1 m-1"
         {...iconProps}
+        key={pokemon.base}
       />
     ))}
   </div>
