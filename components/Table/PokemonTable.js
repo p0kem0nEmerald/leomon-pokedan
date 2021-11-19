@@ -70,7 +70,7 @@ const headCells = [
   {
     id: "protein",
     numeric: true,
-    label: "ともだち",
+    label: "であった",
     align: "right",
     sortable: true,
     getOrderValue: (pokemon) => pokemon.getVideoNo,
@@ -328,7 +328,7 @@ PokemonTable.propTypes = {
 
 PokemonTable.defaultProps = {
   rowsPerPageOptions: [50, 150, 450],
-  defaultRowsPerPage: 150,
+  defaultRowsPerPage: 450,
 };
 
 export default PokemonTable;

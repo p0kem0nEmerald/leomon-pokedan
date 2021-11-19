@@ -3,13 +3,16 @@ import * as React from "react";
 import Link from "next/link";
 import PropTypes from "prop-types";
 import Tooltip from "@mui/material/Tooltip";
+import { combineNameNickname } from "lib/pokemon";
 
 const PokemonLink = ({ children, pokemon, ...props }) => {
   return (
     <div {...props}>
       <Link href={`/pokemon/${pokemon.base}`}>
         <a>
-          <Tooltip title={`「${pokemon.name}」のページに移動する。`}>
+          <Tooltip
+            title={`「${combineNameNickname(pokemon)}」のページに移動する。`}
+          >
             <span>{children}</span>
           </Tooltip>
         </a>

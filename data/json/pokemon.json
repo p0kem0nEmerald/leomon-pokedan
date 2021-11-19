@@ -1801,15 +1801,6 @@
     "kanji": null
   },
   {
-    "name": "アンノーン",
-    "base": "201",
-    "nickname": "",
-    "no": 201,
-    "getVideoNo": null,
-    "evoVideoNo": null,
-    "kanji": null
-  },
-  {
     "name": "アンノーン(A)",
     "base": "201A",
     "nickname": "ＡＫＩＲＡ",
@@ -2946,9 +2937,9 @@
   {
     "name": "エネコ",
     "base": "300",
-    "nickname": "ももこ",
+    "nickname": "",
     "no": 300,
-    "getVideoNo": 127,
+    "getVideoNo": null,
     "evoVideoNo": null,
     "kanji": null
   },

@@ -1,14 +1,15 @@
+import * as React from "react";
+
 import Admin from "layouts/Admin.js";
 import PokemonData from "data/json/pokemon";
-import React from "react";
 import VideoTable from "components/Table/VideoTable";
 import YouTubeData from "data/json/youtube";
 
-export default function Videos({ videos }) {
+export default function Index({ videos }) {
   return <VideoTable videos={videos} />;
 }
 
-Videos.getInitialProps = async () => {
+Index.getInitialProps = async () => {
   return {
     videos: YouTubeData.map((video) => ({
       ...video,
@@ -22,4 +23,4 @@ Videos.getInitialProps = async () => {
   };
 };
 
-Videos.layout = Admin;
+Index.layout = Admin;

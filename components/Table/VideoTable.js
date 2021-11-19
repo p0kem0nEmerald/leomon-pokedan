@@ -9,7 +9,7 @@ import InputBase from "@mui/material/InputBase";
 import Link from "next/link";
 import Paper from "@mui/material/Paper";
 import PokemonAutocomplete from "components/Pokemon/PokemonAutocomplete";
-import PokemonIcon from "components/Pokemon/PokemonIcon";
+import PokemonIcons from "components/Pokemon/PokemonIcons";
 import PokemonLink from "components/Link/PokemonLink";
 import PropTypes from "prop-types";
 import SearchIcon from "@mui/icons-material/Search";
@@ -64,7 +64,7 @@ const headCells = [
   {
     id: "carbs",
     numeric: true,
-    label: "長さ",
+    label: "尺",
     align: "left",
     sortable: true,
     getOrderValue: (video) =>
@@ -74,7 +74,7 @@ const headCells = [
   {
     id: "protein",
     numeric: true,
-    label: "ともだち",
+    label: "であった",
     align: "center",
     sortable: true,
     getOrderValue: (video) => video.getPokemons.length,
@@ -86,6 +86,14 @@ const headCells = [
     align: "center",
     sortable: true,
     getOrderValue: (video) => video.evoPokemons.length,
+  },
+  {
+    id: "protein",
+    numeric: true,
+    label: "new",
+    align: "center",
+    sortable: true,
+    getOrderValue: (video) => video.friends,
   },
 ];
 
@@ -288,27 +296,12 @@ const VideoTable = ({
                       </TableCell>
                       <TableCell align="left">{video.duration}</TableCell>
                       <TableCell align="right">
-                        <div className="flex flex-wrap items-center justify-center">
-                          {video.getPokemons.map((pokemon) => (
-                            <PokemonIcon
-                              pokemon={pokemon}
-                              disableLink={true}
-                              className="flex flex-1 m-1"
-                            />
-                          ))}
-                        </div>
+                        <PokemonIcons pokemons={video.getPokemons} />
                       </TableCell>
                       <TableCell align="right">
-                        <div className="flex flex-wrap items-center justify-center">
-                          {video.evoPokemons.map((pokemon) => (
-                            <PokemonIcon
-                              pokemon={pokemon}
-                              disableLink={true}
-                              className="flex flex-1 m-1"
-                            />
-                          ))}
-                        </div>
+                        <PokemonIcons pokemons={video.evoPokemons} />
                       </TableCell>
+                      <TableCell align="left">{video.friends}</TableCell>
                     </TableRow>
                   );
                 })}

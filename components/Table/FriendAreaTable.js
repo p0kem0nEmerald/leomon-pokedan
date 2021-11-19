@@ -11,7 +11,7 @@ import InputBase from "@mui/material/InputBase";
 import Link from "next/link";
 import Paper from "@mui/material/Paper";
 import PokemonAutocomplete from "components/Pokemon/PokemonAutocomplete";
-import PokemonIcon from "components/Pokemon/PokemonIcon";
+import PokemonIcons from "components/Pokemon/PokemonIcons";
 import PokemonLink from "components/Link/PokemonLink";
 import PropTypes from "prop-types";
 import SearchIcon from "@mui/icons-material/Search";
@@ -36,18 +36,18 @@ const headCells = [
     label: "画像",
     align: "center",
     sortable: false,
-    getOrderValue: (friendArea) => friendArea.no,
+    getOrderValue: (friendArea) => friendArea.name,
   },
   {
-    id: "thumbnail",
+    id: "name",
     numeric: false,
     label: "名前",
     align: "center",
     sortable: false,
-    getOrderValue: (friendArea) => friendArea.id,
+    getOrderValue: (friendArea) => friendArea.name,
   },
   {
-    id: "calories",
+    id: "description",
     numeric: false,
     label: "説明",
     align: "left",
@@ -55,30 +55,36 @@ const headCells = [
     getOrderValue: (friendArea) => friendArea.name,
   },
   {
-    id: "nickname",
+    id: "area",
     numeric: true,
     label: "エリア",
     align: "left",
     sortable: true,
-    getOrderValue: (friendArea) => new Date(friendArea.published_at),
+    getOrderValue: (friendArea) => friendArea.category,
   },
   {
-    id: "carbs",
+    id: "bgm",
     numeric: true,
     label: "BGM",
     align: "left",
     sortable: true,
-    getOrderValue: (friendArea) =>
-      parseInt(friendArea.duration.slice(0, 2)) * 60 +
-      parseInt(friendArea.duration.slice(3, 5)),
+    getOrderValue: (friendArea) => friendArea.bgm,
   },
   {
-    id: "protein",
+    id: "friends",
     numeric: true,
     label: "ともだち",
     align: "center",
     sortable: true,
-    getOrderValue: (friendArea) => friendArea.getPokemons.length,
+    getOrderValue: (friendArea) => friendArea.pokemons.length,
+  },
+  {
+    id: "capacity",
+    numeric: true,
+    label: "数",
+    align: "center",
+    sortable: true,
+    getOrderValue: (friendArea) => friendArea.pokemons.length,
   },
 ];
 
@@ -208,13 +214,6 @@ const FriendAreaTable = ({
               inputProps: {
                 className: "focus:ring-0 bg-gray-100",
               },
-              // InputProps: {
-              //   startAdornment: (
-              //     <InputAdornment position="start">
-              //       <SearchIcon />
-              //     </InputAdornment>
-              //   ),
-              // },
             }}
             className="ml-1 w-full px-1"
           />
@@ -243,9 +242,9 @@ const FriendAreaTable = ({
               {stableSort(
                 filterText.length > 0
                   ? friendAreas.filter((friendArea) =>
-                      friendArea.getPokemons
-                        .concat(friendArea.evoPokemons)
-                        .some((pokemon) => pokemon.name.includes(filterText))
+                      friendArea.pokemons.some((pokemon) =>
+                        pokemon.name.includes(filterText)
+                      )
                     )
                   : friendAreas,
                 getComparator(order, getOrderValue)
@@ -276,16 +275,11 @@ const FriendAreaTable = ({
                       </TableCell>
                       <TableCell align="right">{friendArea.category}</TableCell>
                       <TableCell align="left">{friendArea.bgm}</TableCell>
+                      <TableCell align="center">
+                        <PokemonIcons pokemons={friendArea.pokemons} />
+                      </TableCell>
                       <TableCell align="right">
-                        <div className="flex flex-wrap items-center justify-center">
-                          {friendArea.pokemons.map((pokemon) => (
-                            <PokemonIcon
-                              pokemon={pokemon}
-                              disableLink={true}
-                              className="flex flex-1 m-1"
-                            />
-                          ))}
-                        </div>
+                        {friendArea.pokemons.length}
                       </TableCell>
                     </TableRow>
                   );
