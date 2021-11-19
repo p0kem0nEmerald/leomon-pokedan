@@ -4,6 +4,7 @@ import ProfileData from "data/json/profile";
 import React from "react";
 import SidebarMainRoutes from "routes/SidebarMain";
 import UserDropdown from "components/Dropdowns/UserDropdown.js";
+import { assertAssetPrefix } from "lib/utils";
 import { getProfileImgSrc } from "lib/profile";
 import { useRouter } from "next/router";
 
@@ -24,12 +25,9 @@ export default function Sidebar() {
           </button>
           {/* Brand */}
           <Link href="/">
-            <a
-              href="#pablo"
-              className="md:block text-left text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold py-1 px-0"
-            >
+            <a className="md:block text-left text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold py-1 px-0">
               <img
-                src="/img/LeoTube.png"
+                src={assertAssetPrefix("/img/LeoTube.png")}
                 alt="LeoTube"
                 className="px-6 hidden md:block"
               />
