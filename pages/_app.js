@@ -1,10 +1,18 @@
+/**
+ * @file _app
+ * @author p0kem0nEmerald <https://github.com/p0kem0nEmerald>
+ * @copyright エメラルドを風化させないChannel 2021
+ * @license MIT
+ */
+
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "styles/tailwind.css";
+
+import * as React from "react";
 
 import App from "next/app";
 import Head from "next/head";
 import PageChange from "components/PageChange/PageChange.js";
-import React from "react";
 import ReactDOM from "react-dom";
 import Router from "next/router";
 

@@ -3846,6 +3846,11 @@ select {
 }
 
 @media (min-width: 768px) {
+  .md\:bg-blueGray-800 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(30, 41, 59, var(--tw-bg-opacity));
+  }
+
   .md\:block {
     display: block;
   }

@@ -1,9 +1,15 @@
+/**
+ * @file Admin Layout
+ * @author p0kem0nEmerald <https://github.com/p0kem0nEmerald>
+ * @copyright エメラルドを風化させないChannel 2021
+ * @license MIT
+ */
+
+import * as React from "react";
+
 import AdminNavbar from "components/Navbars/AdminNavbar.js";
 import FooterAdmin from "components/Footers/FooterAdmin.js";
-import React from "react";
 import Sidebar from "components/Sidebar/Sidebar.js";
-
-// components
 
 export default function Admin({ children }) {
   return (

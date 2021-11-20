@@ -1,15 +1,17 @@
+/**
+ * @file videos
+ * @author p0kem0nEmerald <https://github.com/p0kem0nEmerald>
+ * @copyright エメラルドを風化させないChannel 2021
+ * @license MIT
+ */
+
 import * as React from "react";
 
 import Admin from "layouts/Admin.js";
-import Box from "@mui/material/Box";
 import CardVideo from "components/Cards/CardVideo";
-import FormControlLabel from "@mui/material/FormControlLabel";
 import Grid from "@mui/material/Grid";
-import Grow from "@mui/material/Grow";
-import Paper from "@mui/material/Paper";
 import PokemonAutocomplete from "components/Pokemon/PokemonAutocomplete";
 import PokemonData from "data/json/pokemon";
-import Switch from "@mui/material/Switch";
 import YouTubeData from "data/json/youtube";
 
 export default function Videos({ videos }) {

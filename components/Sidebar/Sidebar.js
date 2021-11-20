@@ -1,7 +1,15 @@
+/**
+ * @file Sidebar Components
+ * @author p0kem0nEmerald <https://github.com/p0kem0nEmerald>
+ * @copyright エメラルドを風化させないChannel 2021
+ * @license MIT
+ */
+ 
+import * as React from "react";
+
 import { Contents } from "data/js/contents";
 import Link from "next/link";
 import ProfileData from "data/json/profile";
-import React from "react";
 import SidebarMainRoutes from "routes/SidebarMain";
 import UserDropdown from "components/Dropdowns/UserDropdown.js";
 import { assertAssetPrefix } from "lib/utils";
@@ -13,11 +21,11 @@ export default function Sidebar() {
   const router = useRouter();
   return (
     <>
-      <nav className="md:left-0 md:block md:fixed md:top-0 md:bottom-0 md:overflow-y-auto md:flex-row md:flex-nowrap md:overflow-hidden shadow-xl bg-white flex flex-wrap items-center justify-between relative md:w-64 z-10 py-4 px-6">
+      <nav className="md:left-0 md:block md:fixed md:top-0 md:bottom-0 md:overflow-y-auto md:flex-row md:flex-nowrap md:overflow-hidden md:bg-blueGray-800 shadow-xl bg-white flex flex-wrap items-center justify-between relative md:w-64 z-10 py-4 px-6">
         <div className="px-0 flex flex-wrap items-center justify-between w-full mx-auto md:flex-col md:items-stretch md:min-h-full md:flex-nowrap">
           {/* Toggler */}
           <button
-            className="cursor-pointer text-black opacity-50 md:hidden px-3 py-1 text-xl leading-none bg-transparent rounded border border-solid border-transparent"
+            className="cursor-pointer text-white opacity-50 md:hidden px-3 py-1 text-xl leading-none bg-transparent rounded border border-solid border-transparent"
             type="button"
             onClick={() => setCollapseShow("bg-white m-2 py-3 px-6")}
           >

@@ -1,20 +1,21 @@
+/**
+ * @file Pokemonlist Components
+ * @author p0kem0nEmerald <https://github.com/p0kem0nEmerald>
+ * @copyright エメラルドを風化させないChannel 2021
+ * @license MIT
+ */
+ 
 import * as React from "react";
 
 import Collapse from "@mui/material/Collapse";
-import DraftsIcon from "@mui/icons-material/Drafts";
 import ExpandLess from "@mui/icons-material/ExpandLess";
 import ExpandMore from "@mui/icons-material/ExpandMore";
-import InboxIcon from "@mui/icons-material/MoveToInbox";
 import List from "@mui/material/List";
 import ListItemButton from "@mui/material/ListItemButton";
-import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import ListSubheader from "@mui/material/ListSubheader";
 import PokemonIcon from "components/Pokemon/PokemonIcon";
 import PokemonLink from "components/Link/PokemonLink";
 import PropTypes from "prop-types";
-import SendIcon from "@mui/icons-material/Send";
-import StarBorder from "@mui/icons-material/StarBorder";
 
 const PokemonList = ({ pokemons, title, defaultIsOpen, ...props }) => {
   const [isOpen, setIsOpen] = React.useState(defaultIsOpen);

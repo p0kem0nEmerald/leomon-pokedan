@@ -1,18 +1,20 @@
+/**
+ * @file Videotable Components
+ * @author p0kem0nEmerald <https://github.com/p0kem0nEmerald>
+ * @copyright エメラルドを風化させないChannel 2021
+ * @license MIT
+ */
+ 
 import * as React from "react";
 
 import Box from "@mui/material/Box";
 import CardVideoThumbnail from "components/Cards/CardVideoThumbnail";
 import FilterListIcon from "@mui/icons-material/FilterList";
 import IconButton from "@mui/material/IconButton";
-import InputAdornment from "@mui/material/InputAdornment";
-import InputBase from "@mui/material/InputBase";
-import Link from "next/link";
 import Paper from "@mui/material/Paper";
 import PokemonAutocomplete from "components/Pokemon/PokemonAutocomplete";
 import PokemonIcons from "components/Pokemon/PokemonIcons";
-import PokemonLink from "components/Link/PokemonLink";
 import PropTypes from "prop-types";
-import SearchIcon from "@mui/icons-material/Search";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
@@ -23,8 +25,6 @@ import TableRow from "@mui/material/TableRow";
 import TableSortLabel from "@mui/material/TableSortLabel";
 import Toolbar from "@mui/material/Toolbar";
 import Tooltip from "@mui/material/Tooltip";
-import Typography from "@mui/material/Typography";
-import VideoLink from "components/Link/VideoLink";
 import { formatDate } from "lib/utils";
 import { visuallyHidden } from "@mui/utils";
 
@@ -202,9 +202,20 @@ const VideoTable = ({
     setPage(0);
   };
 
+  const filteredVideos =
+    filterText.length > 0
+      ? videos.filter((video) =>
+          video.getPokemons
+            .concat(video.evoPokemons)
+            .some((pokemon) => pokemon.name.includes(filterText))
+        )
+      : videos;
+
   // Avoid a layout jump when reaching the last page with empty rows.
   const emptyRows =
-    page > 0 ? Math.max(0, (1 + page) * rowsPerPage - videos.length) : 0;
+    page > 0
+      ? Math.max(0, (1 + page) * rowsPerPage - filteredVideos.length)
+      : 0;
 
   return (
     <Box className="w-full">
@@ -250,21 +261,12 @@ const VideoTable = ({
               order={order}
               orderBy={orderBy}
               onRequestSort={handleRequestSort}
-              rowCount={videos.length}
+              rowCount={filteredVideos.length}
             />
             <TableBody>
               {/* if you don't need to support IE11, you can replace the `stableSort` call with:
                  rows.slice().sort(getComparator(order, orderBy)) */}
-              {stableSort(
-                filterText.length > 0
-                  ? videos.filter((video) =>
-                      video.getPokemons
-                        .concat(video.evoPokemons)
-                        .some((pokemon) => pokemon.name.includes(filterText))
-                    )
-                  : videos,
-                getComparator(order, getOrderValue)
-              )
+              {stableSort(filteredVideos, getComparator(order, getOrderValue))
                 .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
                 .map((video, index) => {
                   const labelId = `enhanced-table-checkbox-${index}`;
@@ -319,7 +321,7 @@ const VideoTable = ({
         <TablePagination
           rowsPerPageOptions={rowsPerPageOptions}
           component="div"
-          count={videos.length}
+          count={filteredVideos.length}
           rowsPerPage={rowsPerPage}
           page={page}
           onPageChange={handleChangePage}

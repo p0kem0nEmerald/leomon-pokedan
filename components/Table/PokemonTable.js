@@ -1,3 +1,10 @@
+/**
+ * @file Pokemontable Components
+ * @author p0kem0nEmerald <https://github.com/p0kem0nEmerald>
+ * @copyright エメラルドを風化させないChannel 2021
+ * @license MIT
+ */
+ 
 import * as React from "react";
 
 import Box from "@mui/material/Box";
@@ -190,9 +197,16 @@ const PokemonTable = ({
     setPage(0);
   };
 
+  const filteredPokemons = pokemons.filter(
+    (pokemon) =>
+      pokemon.name.includes(filterText) || pokemon.nickname.includes(filterText)
+  );
+
   // Avoid a layout jump when reaching the last page with empty rows.
   const emptyRows =
-    page > 0 ? Math.max(0, (1 + page) * rowsPerPage - pokemons.length) : 0;
+    page > 0
+      ? Math.max(0, (1 + page) * rowsPerPage - filteredPokemons.length)
+      : 0;
 
   return (
     <Box className="w-full">
@@ -234,19 +248,12 @@ const PokemonTable = ({
               order={order}
               orderBy={orderBy}
               onRequestSort={handleRequestSort}
-              rowCount={pokemons.length}
+              rowCount={filteredPokemons.length}
             />
             <TableBody>
               {/* if you don't need to support IE11, you can replace the `stableSort` call with:
                  rows.slice().sort(getComparator(order, orderBy)) */}
-              {stableSort(
-                pokemons.filter(
-                  (pokemon) =>
-                    pokemon.name.includes(filterText) ||
-                    pokemon.nickname.includes(filterText)
-                ),
-                getComparator(order, getOrderValue)
-              )
+              {stableSort(filteredPokemons, getComparator(order, getOrderValue))
                 .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
                 .map((pokemon, index) => {
                   const labelId = `enhanced-table-checkbox-${index}`;
@@ -310,7 +317,7 @@ const PokemonTable = ({
         <TablePagination
           rowsPerPageOptions={rowsPerPageOptions}
           component="div"
-          count={pokemons.length}
+          count={filteredPokemons.length}
           rowsPerPage={rowsPerPage}
           page={page}
           onPageChange={handleChangePage}
