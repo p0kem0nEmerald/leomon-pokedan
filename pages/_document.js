@@ -19,7 +19,7 @@ class MyDocument extends Document {
           <meta charSet="utf-8" />
           <meta name="theme-color" content="#000000" />
 
-          <meta property="og:url" content="ページのURL" />
+          <meta property="og:url" content="https://p0kem0nemerald.github.io/" />
           <meta property="og:title" content="LeoTube" />
           <meta property="og:type" content="article" />
           <meta property="og:description" content="LetTube" />
@@ -29,6 +29,13 @@ class MyDocument extends Document {
           />
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@p0kem0nEmerald" />
+          <meta name="twitter:creator" content="@p0kem0nEmerald" />
+          <meta name="twitter:title" content="LeoTube" />
+          <meta
+            name="twitter:image"
+            content={assertAssetPrefix("/img/brand/apple-icon.png")}
+          />
+
           <meta property="og:site_name" content="leoTube" />
           <meta property="og:locale" content="ja_JP" />
           <link
