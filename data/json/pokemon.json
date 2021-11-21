@@ -686,18 +686,18 @@
   {
     "name": "ポニータ",
     "base": "077",
-    "nickname": "",
+    "nickname": "まきば",
     "no": 77,
-    "getVideoNo": null,
+    "getVideoNo": 138,
     "evoVideoNo": null,
     "kanji": null
   },
   {
     "name": "ギャロップ",
     "base": "078",
-    "nickname": "",
+    "nickname": "こだま",
     "no": 78,
-    "getVideoNo": null,
+    "getVideoNo": 138,
     "evoVideoNo": null,
     "kanji": null
   },
@@ -1011,9 +1011,9 @@
   {
     "name": "ラッキー",
     "base": "113",
-    "nickname": "",
+    "nickname": "デステニー",
     "no": 113,
-    "getVideoNo": null,
+    "getVideoNo": 138,
     "evoVideoNo": null,
     "kanji": null
   },
@@ -1113,7 +1113,7 @@
     "nickname": "エリコ",
     "no": 124,
     "getVideoNo": 137,
-    "evoVideoNo": null,
+    "evoVideoNo": 139,
     "kanji": null
   },
   {
@@ -1383,7 +1383,7 @@
     "nickname": "めぃこ",
     "no": 154,
     "getVideoNo": 137,
-    "evoVideoNo": null,
+    "evoVideoNo": 139,
     "kanji": null
   },
   {
@@ -1410,7 +1410,7 @@
     "nickname": "ばくまる",
     "no": 157,
     "getVideoNo": 137,
-    "evoVideoNo": null,
+    "evoVideoNo": 139,
     "kanji": null
   },
   {
@@ -1605,28 +1605,28 @@
   {
     "name": "メリープ",
     "base": "179",
-    "nickname": "",
+    "nickname": "きなこ",
     "no": 179,
-    "getVideoNo": null,
+    "getVideoNo": 138,
     "evoVideoNo": null,
     "kanji": null
   },
   {
     "name": "モココ",
     "base": "180",
-    "nickname": "",
+    "nickname": "あずき",
     "no": 180,
-    "getVideoNo": null,
-    "evoVideoNo": null,
+    "getVideoNo": 138,
+    "evoVideoNo": 139,
     "kanji": null
   },
   {
     "name": "デンリュウ",
     "base": "181",
-    "nickname": "",
+    "nickname": "こむぎ",
     "no": 181,
-    "getVideoNo": null,
-    "evoVideoNo": null,
+    "getVideoNo": 138,
+    "evoVideoNo": 139,
     "kanji": null
   },
   {
@@ -2949,7 +2949,7 @@
     "nickname": "さくら",
     "no": 301,
     "getVideoNo": 137,
-    "evoVideoNo": null,
+    "evoVideoNo": 139,
     "kanji": null
   },
   {
