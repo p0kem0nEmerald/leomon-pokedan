@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002Fpokemon\u002F[base]","\u002Fprofile\u002F[name]","\u002Fvideo\u002F[no]","\u002Ffriend-area\u002F[base]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
