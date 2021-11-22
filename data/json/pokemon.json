@@ -3405,9 +3405,9 @@
   {
     "name": "カクレオン",
     "base": "352",
-    "nickname": "",
+    "nickname": "てんちょー",
     "no": 352,
-    "getVideoNo": null,
+    "getVideoNo": 140,
     "evoVideoNo": null,
     "kanji": null
   },
