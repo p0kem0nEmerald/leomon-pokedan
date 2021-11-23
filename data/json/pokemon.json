@@ -2415,9 +2415,9 @@
   {
     "name": "ハピナス",
     "base": "242",
-    "nickname": "",
+    "nickname": "エンジェル",
     "no": 242,
-    "getVideoNo": null,
+    "getVideoNo": 141,
     "evoVideoNo": null,
     "kanji": null
   },
