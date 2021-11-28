@@ -4,7 +4,7 @@
  * @copyright エメラルドを風化させないChannel 2021
  * @license MIT
  */
- 
+
 import * as React from "react";
 
 import Box from "@mui/material/Box";
@@ -339,7 +339,7 @@ VideoTable.propTypes = {
 };
 
 VideoTable.defaultProps = {
-  rowsPerPageOptions: [10, 50, 150],
+  rowsPerPageOptions: [10, 50, 160],
   defaultRowsPerPage: 150,
 };
 

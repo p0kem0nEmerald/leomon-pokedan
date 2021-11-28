@@ -575,7 +575,7 @@
     "remarks": "主人公orパートナーがフシギダネorチコリータの場合、最初から入手している。",
     "bgm": "野生の草原",
     "base": "BeauPlains",
-    "lookBackVideoNo": null
+    "lookBackVideoNo": 151
   },
   {
     "category": "草原エリア",
@@ -1042,7 +1042,7 @@
     "remarks": "主人公orパートナーがピカチュウorニャースorエネコの場合、最初から入手している。",
     "bgm": "陽炎の森",
     "base": "EnergeticForest",
-    "lookBackVideoNo": null
+    "lookBackVideoNo": 151
   },
   {
     "category": "南の海エリア",

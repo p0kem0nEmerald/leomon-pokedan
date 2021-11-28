@@ -2,7 +2,8 @@
 
 このリポジトリは、[【実況】全 413 匹と友達になるポケモン不思議のダンジョン](https://www.youtube.com/playlist?list=PLx2ElhDBB3aBen3kaAsCdI4nyezVWdknV)の軌跡をまとめたファンサイト用です。
 
-▶︎ ページは [こちら](https://p0kem0nemerald.github.io/leomon-pokedan/) から！！
+- ページは [こちら](https://p0kem0nemerald.github.io/leomon-pokedan/) から！！
+- プレイリストは [こちら](https://www.youtube.com/playlist?list=PLx2ElhDBB3aBen3kaAsCdI4nyezVWdknV) から！！
 
 ### Contents
 
