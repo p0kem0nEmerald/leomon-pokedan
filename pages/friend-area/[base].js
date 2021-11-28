@@ -8,14 +8,13 @@
 import * as React from "react";
 
 import Admin from "layouts/Admin.js";
+import CardVideoThumbnail from "components/Cards/CardVideoThumbnail";
 import FriendAreaData from "data/json/friend-area";
-import FriendAreaTable from "components/Table/FriendAreaTable";
-import Link from "next/link";
 import NewLineText from "components/Typography/NewLineText";
 import PokemonData from "data/json/pokemon";
 import PokemonIcons from "components/Pokemon/PokemonIcons";
-import ProfileData from "data/json/profile";
-import { SNS } from "data/js/sns";
+import SectionTitle from "components/Typography/SectionTitle";
+import YouTubeData from "data/json/youtube";
 import { getFriendAreaImgSrc } from "lib/friend-area";
 
 export default function FriendArea({ friendArea }) {
@@ -74,7 +73,22 @@ export default function FriendArea({ friendArea }) {
                   </h3>
                 </div>
                 <PokemonIcons pokemons={friendArea.pokemons} />
-                <div className="mt-10 py-10 border-t border-blueGray-200 text-center">
+                <div className="py-4 my-4 border-t border-b border-blueGray-200 text-center">
+                  {friendArea.lookBackVideo && (
+                    <div className="flex flex-1 text-center mx-4">
+                      <div className="mx-auto" style={{ width: 400 }}>
+                        <SectionTitle>【あいさつ動画】</SectionTitle>
+                        <CardVideoThumbnail
+                          id={friendArea.lookBackVideo.id}
+                          videoNo={friendArea.lookBackVideo.no}
+                          duration={friendArea.lookBackVideo.duration}
+                          overlayProps={{ className: "relative" }}
+                        />
+                      </div>
+                    </div>
+                  )}
+                </div>
+                <div className="text-center">
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
                       <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
@@ -113,6 +127,9 @@ export async function getStaticProps({ params }) {
         pokemons: PokemonData.filter((pokemon) =>
           friendArea.pokemons.includes(pokemon.name)
         ),
+        lookBackVideo:
+          friendArea.lookBackVideoNo &&
+          YouTubeData[friendArea.lookBackVideoNo - 1],
       },
     },
   };

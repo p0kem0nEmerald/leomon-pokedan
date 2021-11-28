@@ -14,6 +14,7 @@ import FriendAreaProgressTable from "components/Table/FriendAreaProgressTable";
 import FriendsChart from "components/Charts/FriendsChart";
 import PokemonData from "data/json/pokemon";
 import Title from "components/Typography/Title";
+import YouTubeData from "data/json/youtube";
 
 export default function Analysis({
   friendAreas,
@@ -49,6 +50,9 @@ Analysis.getInitialProps = async () => {
         othersPokemons: pokemons.filter(
           (pokemon) => pokemon.nickname.length === 0
         ),
+        lookBackVideo:
+          friendArea.lookBackVideoNo &&
+          YouTubeData[friendArea.lookBackVideoNo - 1],
       };
     }),
   };

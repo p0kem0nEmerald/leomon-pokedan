@@ -4,23 +4,18 @@
  * @copyright エメラルドを風化させないChannel 2021
  * @license MIT
  */
- 
+
 import * as React from "react";
 
 import Box from "@mui/material/Box";
 import CardFriendAreaThumbnail from "components/Cards/CardFriendAreaThumbnail";
+import CardVideoThumbnail from "components/Cards/CardVideoThumbnail";
 import FilterListIcon from "@mui/icons-material/FilterList";
-import FriendAreaLink from "components/Link/FriendAreaLink";
 import IconButton from "@mui/material/IconButton";
-import InputAdornment from "@mui/material/InputAdornment";
-import InputBase from "@mui/material/InputBase";
-import Link from "next/link";
 import Paper from "@mui/material/Paper";
 import PokemonAutocomplete from "components/Pokemon/PokemonAutocomplete";
 import PokemonIcons from "components/Pokemon/PokemonIcons";
-import PokemonLink from "components/Link/PokemonLink";
 import PropTypes from "prop-types";
-import SearchIcon from "@mui/icons-material/Search";
 import Table from "@mui/material/Table";
 import TableBody from "@mui/material/TableBody";
 import TableCell from "@mui/material/TableCell";
@@ -31,11 +26,17 @@ import TableRow from "@mui/material/TableRow";
 import TableSortLabel from "@mui/material/TableSortLabel";
 import Toolbar from "@mui/material/Toolbar";
 import Tooltip from "@mui/material/Tooltip";
-import Typography from "@mui/material/Typography";
-import { formatDate } from "lib/utils";
 import { visuallyHidden } from "@mui/utils";
 
 const headCells = [
+  {
+    id: "name",
+    numeric: false,
+    label: "名前",
+    align: "center",
+    sortable: false,
+    getOrderValue: (friendArea) => friendArea.name,
+  },
   {
     id: "cover",
     numeric: false,
@@ -45,12 +46,12 @@ const headCells = [
     getOrderValue: (friendArea) => friendArea.name,
   },
   {
-    id: "name",
+    id: "video",
     numeric: false,
-    label: "名前",
+    label: "動画",
     align: "center",
-    sortable: false,
-    getOrderValue: (friendArea) => friendArea.name,
+    sortable: true,
+    getOrderValue: (friendArea) => friendArea.lookBackVideo?.no,
   },
   {
     id: "friends",
@@ -259,6 +260,9 @@ const FriendAreaTable = ({
                         scope="row"
                         align="center"
                       >
+                        {friendArea.name}
+                      </TableCell>
+                      <TableCell align="center">
                         <CardFriendAreaThumbnail
                           friendArea={friendArea}
                           style={{ width: "160px" }}
@@ -267,7 +271,16 @@ const FriendAreaTable = ({
                           }}
                         />
                       </TableCell>
-                      <TableCell align="center">{friendArea.name}</TableCell>
+                      <TableCell align="center">
+                        {friendArea.lookBackVideo && (
+                          <CardVideoThumbnail
+                            id={friendArea.lookBackVideo.id}
+                            videoNo={friendArea.lookBackVideo.no}
+                            duration={friendArea.lookBackVideo.duration}
+                            style={{ width: "120px" }}
+                          />
+                        )}
+                      </TableCell>
                       <TableCell align="center">
                         <PokemonIcons pokemons={friendArea.friendPokemons} />
                       </TableCell>

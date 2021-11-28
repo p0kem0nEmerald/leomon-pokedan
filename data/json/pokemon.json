@@ -1353,9 +1353,9 @@
   {
     "name": "ミュウ",
     "base": "151",
-    "nickname": "",
+    "nickname": "あい",
     "no": 151,
-    "getVideoNo": null,
+    "getVideoNo": 142,
     "evoVideoNo": null,
     "kanji": null
   },

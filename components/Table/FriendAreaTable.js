@@ -4,11 +4,12 @@
  * @copyright エメラルドを風化させないChannel 2021
  * @license MIT
  */
- 
+
 import * as React from "react";
 
 import Box from "@mui/material/Box";
 import CardFriendAreaThumbnail from "components/Cards/CardFriendAreaThumbnail";
+import CardVideoThumbnail from "components/Cards/CardVideoThumbnail";
 import FilterListIcon from "@mui/icons-material/FilterList";
 import IconButton from "@mui/material/IconButton";
 import Paper from "@mui/material/Paper";
@@ -29,6 +30,14 @@ import { visuallyHidden } from "@mui/utils";
 
 const headCells = [
   {
+    id: "name",
+    numeric: false,
+    label: "名前",
+    align: "center",
+    sortable: false,
+    getOrderValue: (friendArea) => friendArea.name,
+  },
+  {
     id: "cover",
     numeric: false,
     label: "画像",
@@ -37,12 +46,12 @@ const headCells = [
     getOrderValue: (friendArea) => friendArea.name,
   },
   {
-    id: "name",
+    id: "video",
     numeric: false,
-    label: "名前",
+    label: "動画",
     align: "center",
-    sortable: false,
-    getOrderValue: (friendArea) => friendArea.name,
+    sortable: true,
+    getOrderValue: (friendArea) => friendArea.lookBackVideo?.no,
   },
   {
     id: "description",
@@ -264,6 +273,9 @@ const FriendAreaTable = ({
                         scope="row"
                         align="center"
                       >
+                        {friendArea.name}
+                      </TableCell>
+                      <TableCell align="center">
                         <CardFriendAreaThumbnail
                           friendArea={friendArea}
                           style={{ width: "160px" }}
@@ -272,7 +284,16 @@ const FriendAreaTable = ({
                           }}
                         />
                       </TableCell>
-                      <TableCell align="center">{friendArea.name}</TableCell>
+                      <TableCell align="center">
+                        {friendArea.lookBackVideo && (
+                          <CardVideoThumbnail
+                            id={friendArea.lookBackVideo.id}
+                            videoNo={friendArea.lookBackVideo.no}
+                            duration={friendArea.lookBackVideo.duration}
+                            style={{ width: "120px" }}
+                          />
+                        )}
+                      </TableCell>
                       <TableCell align="left">
                         {friendArea.description}
                       </TableCell>

@@ -11,6 +11,7 @@ import Admin from "layouts/Admin.js";
 import FriendAreaData from "data/json/friend-area";
 import FriendAreaTable from "components/Table/FriendAreaTable";
 import PokemonData from "data/json/pokemon";
+import YouTubeData from "data/json/youtube";
 
 export default function FriendAreas({ friendAreas }) {
   return <FriendAreaTable friendAreas={friendAreas} />;
@@ -23,6 +24,9 @@ FriendAreas.getInitialProps = async () => {
       pokemons: PokemonData.filter((pokemon) =>
         friendArea.pokemons.includes(pokemon.name)
       ),
+      lookBackVideo:
+        friendArea.lookBackVideoNo &&
+        YouTubeData[friendArea.lookBackVideoNo - 1],
     })),
   };
 };

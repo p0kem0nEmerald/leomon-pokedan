@@ -16,7 +16,8 @@
     "condition": "",
     "remarks": "",
     "bgm": "ジャングル",
-    "base": "RavagedField"
+    "base": "RavagedField",
+    "lookBackVideoNo": 143
   },
   {
     "category": "荒地エリア",
@@ -29,7 +30,8 @@
     "condition": "",
     "remarks": "",
     "bgm": "ジャングル",
-    "base": "MagneticQuarry"
+    "base": "MagneticQuarry",
+    "lookBackVideoNo": 147
   },
   {
     "category": "荒地エリア",
@@ -54,7 +56,8 @@
     "condition": "",
     "remarks": "",
     "bgm": "ジャングル",
-    "base": "ThunderMeadow"
+    "base": "ThunderMeadow",
+    "lookBackVideoNo": 147
   },
   {
     "category": "池エリア",
@@ -78,7 +81,8 @@
     "condition": "エンディング後",
     "remarks": "主人公orパートナーがゼニガメorコダックの場合、最初から入手している。",
     "bgm": "お玉ヶ池",
-    "base": "TurtleshellPond"
+    "base": "TurtleshellPond",
+    "lookBackVideoNo": 149
   },
   {
     "category": "遺跡エリア",
@@ -106,7 +110,8 @@
     "condition": "エンディング後",
     "remarks": "これを入手すると、アンノーンの遺跡へ行けるようになる。",
     "bgm": "岩石洞窟",
-    "base": "AgedChamberA-N"
+    "base": "AgedChamberA-N",
+    "lookBackVideoNo": 146
   },
   {
     "category": "遺跡エリア",
@@ -134,7 +139,8 @@
     "condition": "エンディング後",
     "remarks": "これを入手すると、アンノーンの遺跡へ行けるようになる。",
     "bgm": "岩石洞窟",
-    "base": "AgedChamberO-QU"
+    "base": "AgedChamberO-QU",
+    "lookBackVideoNo": 146
   },
   {
     "category": "遺跡エリア",
@@ -154,7 +160,8 @@
     "condition": "エンディング後",
     "remarks": "レジロック・レジアイス・レジスチルを仲間にする時は、購入するのを忘れないようにしよう。",
     "bgm": "岩石洞窟",
-    "base": "AncientRelic"
+    "base": "AncientRelic",
+    "lookBackVideoNo": 149
   },
   {
     "category": "海岸エリア",
@@ -167,7 +174,8 @@
     "condition": "エンディング後",
     "remarks": "",
     "bgm": "お玉ヶ池",
-    "base": "ShallowBeach"
+    "base": "ShallowBeach",
+    "lookBackVideoNo": 145
   },
   {
     "category": "海岸エリア",
@@ -186,7 +194,8 @@
     "condition": "エンディング後",
     "remarks": "",
     "bgm": "豊かな海",
-    "base": "IceFloeBeach"
+    "base": "IceFloeBeach",
+    "lookBackVideoNo": 148
   },
   {
     "category": "火山エリア",
@@ -210,7 +219,8 @@
     "condition": "エンディング後",
     "remarks": "主人公orパートナーがヒノアラシorアチャモの場合、最初から入手している。",
     "bgm": "野生の草原",
-    "base": "ScorchedPlains"
+    "base": "ScorchedPlains",
+    "lookBackVideoNo": 149
   },
   {
     "category": "火山エリア",
@@ -231,7 +241,8 @@
     "condition": "エンディング後",
     "remarks": "",
     "bgm": "岩石洞窟",
-    "base": "Crater"
+    "base": "Crater",
+    "lookBackVideoNo": 149
   },
   {
     "category": "火山エリア",
@@ -244,7 +255,8 @@
     "condition": "グラードンを仲間にする",
     "remarks": "値段が存在しない、友達エリアの1つ。",
     "bgm": "大地の底",
-    "base": "VolcanicPit"
+    "base": "VolcanicPit",
+    "lookBackVideoNo": 145
   },
   {
     "category": "川エリア",
@@ -265,7 +277,8 @@
     "condition": "",
     "remarks": "主人公orパートナーがワニノコの場合、最初から入手している。",
     "bgm": "お玉ヶ池",
-    "base": "RubADubRiver"
+    "base": "RubADubRiver",
+    "lookBackVideoNo": 149
   },
   {
     "category": "北の海エリア",
@@ -288,7 +301,8 @@
     "condition": "エンディング後",
     "remarks": "",
     "bgm": "豊かな海",
-    "base": "BountifulSea"
+    "base": "BountifulSea",
+    "lookBackVideoNo": 147
   },
   {
     "category": "北の海エリア",
@@ -301,7 +315,8 @@
     "condition": "エンディング後",
     "remarks": "",
     "bgm": "豊かな海",
-    "base": "SereneSea"
+    "base": "SereneSea",
+    "lookBackVideoNo": 147
   },
   {
     "category": "北の海エリア",
@@ -314,7 +329,8 @@
     "condition": "ルギアを仲間にする",
     "remarks": "値段が存在しない、友達エリアの1つ。",
     "bgm": "深層海流",
-    "base": "DeepSeaCurrent"
+    "base": "DeepSeaCurrent",
+    "lookBackVideoNo": 147
   },
   {
     "category": "北の島エリア",
@@ -327,7 +343,8 @@
     "condition": "フリーザー・サンダー・ファイヤーのいずれかを仲間にする",
     "remarks": "値段が存在しない、友達エリアの1つ。",
     "bgm": "伝説の孤島",
-    "base": "LegendaryIsland"
+    "base": "LegendaryIsland",
+    "lookBackVideoNo": 147
   },
   {
     "category": "北の湖エリア",
@@ -340,7 +357,8 @@
     "condition": "エンディング後",
     "remarks": "",
     "bgm": "豊かな海",
-    "base": "MysticLake"
+    "base": "MysticLake",
+    "lookBackVideoNo": 148
   },
   {
     "category": "砂漠エリア",
@@ -361,7 +379,8 @@
     "condition": "エンディング後",
     "remarks": "これを入手すると、砂漠地帯へ行けるようになる。",
     "bgm": "ジャングル",
-    "base": "FurnaceDesert"
+    "base": "FurnaceDesert",
+    "lookBackVideoNo": 147
   },
   {
     "category": "山脈エリア",
@@ -387,7 +406,8 @@
     "condition": "",
     "remarks": "主人公がカラカラの場合、最初から入手している。",
     "bgm": "新緑の山",
-    "base": "MtDeepgreen"
+    "base": "MtDeepgreen",
+    "lookBackVideoNo": 144
   },
   {
     "category": "山脈エリア",
@@ -410,7 +430,8 @@
     "condition": "エンディング後",
     "remarks": "主人公orパートナーがヒトカゲの場合、最初から入手している。",
     "bgm": "野生の草原",
-    "base": "MtCleft"
+    "base": "MtCleft",
+    "lookBackVideoNo": 146
   },
   {
     "category": "山脈エリア",
@@ -430,7 +451,8 @@
     "condition": "依頼",
     "remarks": "値段が存在しない、友達エリアの1つ。",
     "bgm": "陽炎の森",
-    "base": "MtMoonview"
+    "base": "MtMoonview",
+    "lookBackVideoNo": 146
   },
   {
     "category": "山脈エリア",
@@ -455,7 +477,8 @@
     "condition": "",
     "remarks": "主人公がワンリキーの場合、最初から入手している。",
     "bgm": "ジャングル",
-    "base": "MtDiscipline"
+    "base": "MtDiscipline",
+    "lookBackVideoNo": 144
   },
   {
     "category": "山脈エリア",
@@ -482,7 +505,8 @@
     "condition": "アブソルを仲間にする",
     "remarks": "値段が存在しない、友達エリアの1つ。",
     "bgm": "ひょうたん沼",
-    "base": "DarknessRidge"
+    "base": "DarknessRidge",
+    "lookBackVideoNo": 144
   },
   {
     "category": "山脈エリア",
@@ -495,7 +519,8 @@
     "condition": "エンディング後",
     "remarks": "ホウオウを仲間にする時は、購入するのを忘れないようにしよう。",
     "bgm": "虹の頂",
-    "base": "RainbowPeak"
+    "base": "RainbowPeak",
+    "lookBackVideoNo": 147
   },
   {
     "category": "ジャングルエリア",
@@ -522,7 +547,8 @@
     "condition": "",
     "remarks": "",
     "bgm": "ジャングル",
-    "base": "Jungle"
+    "base": "Jungle",
+    "lookBackVideoNo": 144
   },
   {
     "category": "草原エリア",
@@ -548,7 +574,8 @@
     "condition": "",
     "remarks": "主人公orパートナーがフシギダネorチコリータの場合、最初から入手している。",
     "bgm": "野生の草原",
-    "base": "BeauPlains"
+    "base": "BeauPlains",
+    "lookBackVideoNo": null
   },
   {
     "category": "草原エリア",
@@ -575,7 +602,8 @@
     "condition": "依頼",
     "remarks": "値段が存在しない、友達エリアの1つ。ほとんどのエンディング後イベントフラグの解禁条件のため早めに入手したい。",
     "bgm": "新緑の山",
-    "base": "SkyBluePlains"
+    "base": "SkyBluePlains",
+    "lookBackVideoNo": 150
   },
   {
     "category": "草原エリア",
@@ -588,7 +616,8 @@
     "condition": "エンディング後",
     "remarks": "ライコウ・エンテイ・スイクンのいずれかを仲間にする時は、購入するのを忘れないようにしよう。余談だが、伝説専用の友達エリアのなかでは珍しく、専用BGMではない。 そして、この選曲、ミスマッチと感じる人も多いだろう。",
     "bgm": "野生の草原",
-    "base": "SacredField"
+    "base": "SacredField",
+    "lookBackVideoNo": 149
   },
   {
     "category": "天空エリア",
@@ -601,7 +630,8 @@
     "condition": "レックウザを仲間にする",
     "remarks": "値段が存在しない、友達エリアの1つ。",
     "bgm": "裂空の頂",
-    "base": "StratosLookout"
+    "base": "StratosLookout",
+    "lookBackVideoNo": 145
   },
   {
     "category": "洞窟エリア",
@@ -626,7 +656,8 @@
     "condition": "エンディング後",
     "remarks": "",
     "bgm": "岩石洞窟",
-    "base": "EchoCave"
+    "base": "EchoCave",
+    "lookBackVideoNo": 146
   },
   {
     "category": "洞窟エリア",
@@ -639,7 +670,8 @@
     "condition": "依頼",
     "remarks": "値段が存在しない、友達エリアの1つ。これを入手すると、飛竜の丘へ行けるようになる。",
     "bgm": "岩石洞窟",
-    "base": "DragonCave"
+    "base": "DragonCave",
+    "lookBackVideoNo": 148
   },
   {
     "category": "洞窟エリア",
@@ -652,7 +684,8 @@
     "condition": "依頼",
     "remarks": "値段が存在しない、友達エリアの1つ。これを入手すると、南の洞穴へ行けるようになる。",
     "bgm": "岩石洞窟",
-    "base": "BoulderCave"
+    "base": "BoulderCave",
+    "lookBackVideoNo": 146
   },
   {
     "category": "洞窟エリア",
@@ -665,7 +698,8 @@
     "condition": "エンディング後",
     "remarks": "ミュウツーを仲間にする時は、購入するのを忘れないようにしよう。",
     "bgm": "謎の洞窟",
-    "base": "CrypticCave"
+    "base": "CrypticCave",
+    "lookBackVideoNo": 150
   },
   {
     "category": "南西の島エリア",
@@ -678,7 +712,8 @@
     "condition": "デオキシスを仲間にする",
     "remarks": "値段が存在しない、友達エリアの1つ。",
     "bgm": "閉ざされた島",
-    "base": "EnclosedIsland"
+    "base": "EnclosedIsland",
+    "lookBackVideoNo": 150
   },
   {
     "category": "西の島エリア",
@@ -691,7 +726,8 @@
     "condition": "エンディング後",
     "remarks": "ミュウを仲間にするときは、購入するのを忘れないようにしよう。",
     "bgm": "最後の島",
-    "base": "FinalIsland"
+    "base": "FinalIsland",
+    "lookBackVideoNo": 150
   },
   {
     "category": "西の森エリア",
@@ -712,7 +748,8 @@
     "condition": "",
     "remarks": "",
     "bgm": "陽炎の森",
-    "base": "MushroomForest"
+    "base": "MushroomForest",
+    "lookBackVideoNo": 148
   },
   {
     "category": "西の森エリア",
@@ -725,7 +762,8 @@
     "condition": "セレビィを仲間にする",
     "remarks": "値段が存在しない、友達エリアの1つ。",
     "bgm": "癒しの森",
-    "base": "HealingForest"
+    "base": "HealingForest",
+    "lookBackVideoNo": 148
   },
   {
     "category": "西の森エリア",
@@ -745,7 +783,8 @@
     "condition": "",
     "remarks": "主人公がイーブイの場合、最初から入手している。",
     "bgm": "陽炎の森",
-    "base": "TransformForest"
+    "base": "TransformForest",
+    "lookBackVideoNo": 148
   },
   {
     "category": "西の森エリア",
@@ -768,7 +807,8 @@
     "condition": "エンディング後",
     "remarks": "これを入手すると、暗夜遺跡へ行けるようになる。",
     "bgm": "陽炎の森",
-    "base": "SecretiveForest"
+    "base": "SecretiveForest",
+    "lookBackVideoNo": 145
   },
   {
     "category": "沼エリア",
@@ -789,7 +829,8 @@
     "condition": "",
     "remarks": "主人公orパートナーがミズゴロウの場合、最初から入手している。",
     "bgm": "ひょうたん沼",
-    "base": "PeanutSwamp"
+    "base": "PeanutSwamp",
+    "lookBackVideoNo": 145
   },
   {
     "category": "沼エリア",
@@ -809,7 +850,8 @@
     "condition": "エンディング後",
     "remarks": "",
     "bgm": "ひょうたん沼",
-    "base": "PoisonSwamp"
+    "base": "PoisonSwamp",
+    "lookBackVideoNo": 145
   },
   {
     "category": "廃墟エリア",
@@ -830,7 +872,8 @@
     "condition": "",
     "remarks": "",
     "bgm": "無人発電所",
-    "base": "DecrepitLab"
+    "base": "DecrepitLab",
+    "lookBackVideoNo": 148
   },
   {
     "category": "廃墟エリア",
@@ -850,7 +893,8 @@
     "condition": "友達サークルが開店する前に、プクリンと会話する",
     "remarks": "",
     "bgm": "無人発電所",
-    "base": "PowerPlant"
+    "base": "PowerPlant",
+    "lookBackVideoNo": 143
   },
   {
     "category": "東の池エリア",
@@ -873,7 +917,8 @@
     "condition": "",
     "remarks": "",
     "bgm": "お玉ヶ池",
-    "base": "TadpolePond"
+    "base": "TadpolePond",
+    "lookBackVideoNo": 149
   },
   {
     "category": "東の湖エリア",
@@ -886,7 +931,8 @@
     "condition": "エンディング後",
     "remarks": "",
     "bgm": "お玉ヶ池",
-    "base": "WaterfallLake"
+    "base": "WaterfallLake",
+    "lookBackVideoNo": 148
   },
   {
     "category": "東の森エリア",
@@ -914,7 +960,8 @@
     "condition": "友達サークルが開店する前に、プクリンと会話する",
     "remarks": "",
     "bgm": "陽炎の森",
-    "base": "MistRiseForest"
+    "base": "MistRiseForest",
+    "lookBackVideoNo": 146
   },
   {
     "category": "東の森エリア",
@@ -940,7 +987,8 @@
     "condition": "",
     "remarks": "",
     "bgm": "陽炎の森",
-    "base": "FlyawayForest"
+    "base": "FlyawayForest",
+    "lookBackVideoNo": 150
   },
   {
     "category": "東の森エリア",
@@ -963,7 +1011,8 @@
     "condition": "",
     "remarks": "主人公orパートナーがキモリの場合、最初から入手している。",
     "bgm": "陽炎の森",
-    "base": "OvergrownForest"
+    "base": "OvergrownForest",
+    "lookBackVideoNo": 144
   },
   {
     "category": "東の森エリア",
@@ -992,7 +1041,8 @@
     "condition": "エンディング後",
     "remarks": "主人公orパートナーがピカチュウorニャースorエネコの場合、最初から入手している。",
     "bgm": "陽炎の森",
-    "base": "EnergeticForest"
+    "base": "EnergeticForest",
+    "lookBackVideoNo": null
   },
   {
     "category": "南の海エリア",
@@ -1016,7 +1066,8 @@
     "condition": "エンディング後",
     "remarks": "",
     "bgm": "豊かな海",
-    "base": "TreasureSea"
+    "base": "TreasureSea",
+    "lookBackVideoNo": 150
   },
   {
     "category": "南の海エリア",
@@ -1042,7 +1093,8 @@
     "condition": "エンディング後",
     "remarks": "",
     "bgm": "豊かな海",
-    "base": "DeepSeaFloor"
+    "base": "DeepSeaFloor",
+    "lookBackVideoNo": 150
   },
   {
     "category": "南の海エリア",
@@ -1055,7 +1107,8 @@
     "condition": "カイオーガを仲間にする",
     "remarks": "値段が存在しない、友達エリアの1つ。",
     "bgm": "海底洞窟",
-    "base": "SeafloorCave"
+    "base": "SeafloorCave",
+    "lookBackVideoNo": 145
   },
   {
     "category": "南の島エリア",
@@ -1068,7 +1121,8 @@
     "condition": "エンディング後",
     "remarks": "ラティアスとラティオスを仲間にする時は、購入するのを忘れないようにしよう。",
     "bgm": "南の孤島",
-    "base": "SouthernIsland"
+    "base": "SouthernIsland",
+    "lookBackVideoNo": 149
   },
   {
     "category": "南の草原エリア",
@@ -1097,7 +1151,8 @@
     "condition": "",
     "remarks": "",
     "bgm": "新緑の山",
-    "base": "Safari"
+    "base": "Safari",
+    "lookBackVideoNo": 143
   },
   {
     "category": "南の草原エリア",
@@ -1124,7 +1179,8 @@
     "condition": "友達サークルが開店する前に、プクリンと会話する",
     "remarks": "",
     "bgm": "野生の草原",
-    "base": "WildPlains"
+    "base": "WildPlains",
+    "lookBackVideoNo": 143
   },
   {
     "category": "雪山エリア",
@@ -1145,6 +1201,7 @@
     "condition": "エンディング後",
     "remarks": "",
     "bgm": "豊かな海",
-    "base": "FrigidCavern"
+    "base": "FrigidCavern",
+    "lookBackVideoNo": 148
   }
 ]
